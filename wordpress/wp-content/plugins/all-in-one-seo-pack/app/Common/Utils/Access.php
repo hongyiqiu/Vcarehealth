@@ -44,7 +44,10 @@ class Access {
 	 */
 	protected $roles = [
 		'superadmin'    => 'superadmin',
-		'administrator' => 'administrator'
+		'administrator' => 'administrator',
+		'editor'        => 'editor',
+		'author'        => 'author',
+		'contributor'   => 'contributor'
 	];
 
 	/**
@@ -84,6 +87,20 @@ class Access {
 
 			if ( $this->isAdmin( $role ) ) {
 				$roleObject->add_cap( 'aioseo_manage_seo' );
+			}
+
+			if ( current_user_can( 'edit_posts' ) ) {
+				$postCapabilities = [
+					'aioseo_page_analysis',
+					'aioseo_page_general_settings',
+					'aioseo_page_advanced_settings',
+					'aioseo_page_schema_settings',
+					'aioseo_page_social_settings',
+				];
+
+				foreach ( $postCapabilities as $capability ) {
+					$roleObject->add_cap( $capability );
+				}
 			}
 		}
 
@@ -146,7 +163,13 @@ class Access {
 			return true;
 		}
 
-		if ( $this->canPublish( $checkRole ) && false !== strpos( $capability, 'aioseo_page_' ) ) {
+		if (
+			(
+				$this->can( 'publish_posts', $checkRole ) ||
+				$this->can( 'edit_posts', $checkRole )
+			) &&
+			false !== strpos( $capability, 'aioseo_page_' )
+		) {
 			return true;
 		}
 
@@ -214,12 +237,13 @@ class Access {
 	 *
 	 * @since 4.0.9
 	 *
-	 * @param  string  $role The role to check.
-	 * @return boolean       True if the role can publish.
+	 * @param  string  $capability The capability to check against.
+	 * @param  string  $role       The role to check.
+	 * @return boolean             True if the role can publish.
 	 */
-	protected function canPublish( $role ) {
+	protected function can( $capability, $role ) {
 		if ( empty( $role ) ) {
-			return current_user_can( 'publish_posts' );
+			return current_user_can( $capability );
 		}
 
 		$wpRoles  = wp_roles();
@@ -227,7 +251,7 @@ class Access {
 		foreach ( $allRoles as $key => $wpRole ) {
 			if ( $key === $role ) {
 				$r = get_role( $key );
-				if ( $r->has_cap( 'publish_posts' ) ) {
+				if ( $r->has_cap( $capability ) ) {
 					return true;
 				}
 			}

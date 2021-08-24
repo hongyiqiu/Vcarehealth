@@ -5,7 +5,7 @@ class SimpleTags_Client_Autoterms {
 	 * Constructor
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public function __construct() {
 		add_action( 'save_post', array( __CLASS__, 'save_post' ), 12, 2 );
@@ -21,6 +21,12 @@ class SimpleTags_Client_Autoterms {
 	 * @return boolean
 	 */
 	public static function save_post( $post_id = null, $object = null ) {
+
+		//return if general auto terms settings is disabled
+		if ( 0 === (int) SimpleTags_Plugin::get_option_value( 'active_autotags' ) ) {
+			return false;
+		}
+
 		// Get options
 		$options = get_option( STAGS_OPTIONS_NAME_AUTO );
 
@@ -30,11 +36,10 @@ class SimpleTags_Client_Autoterms {
 		}
 
 		// user preference for this post ?
-		$meta_value = get_post_meta( $object->ID, '_exclude_autotags', true );
-		if ( ! empty( $meta_value ) ) {
+		$meta_value = isset($_POST['exclude_autotags']) ? $_POST['exclude_autotags'] : false;
+		if ( $meta_value ) {
 			return false;
 		}
-
 		// Loop option for find if autoterms is actived on any taxo
 		$flag = false;
 		foreach ( $options[ $object->post_type ] as $taxo_name => $local_options ) {
@@ -62,7 +67,7 @@ class SimpleTags_Client_Autoterms {
 	 * @param boolean $counter
 	 *
 	 * @return boolean
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function auto_terms_post( $object, $taxonomy = 'post_tag', $options = array(), $counter = false ) {
 		global $wpdb;
@@ -90,7 +95,7 @@ class SimpleTags_Client_Autoterms {
 		}
 
 		// Auto term with specific auto terms list
-		if ( isset( $options['auto_list'] ) ) {
+		if ( isset( $options['auto_list'] ) && isset( $options['at_all_no'] ) && $options['at_all_no'] == 1 ) {
 			$terms = (array) maybe_unserialize( $options['auto_list'] );
 			foreach ( $terms as $term ) {
 				if ( ! is_string( $term ) ) {
@@ -108,6 +113,14 @@ class SimpleTags_Client_Autoterms {
 					if ( preg_match( "/\b" . $preg_term . "\b/i", $content ) ) {
 						$terms_to_add[] = $term;
 					}
+
+                    //make exception for hashtag special character
+                    if (substr($term, 0, strlen('#')) === '#') {
+                        $trim_term = ltrim($term, '#');
+					    if ( preg_match( "/\B(\#+$trim_term\b)(?!;)/i", $content ) ) {
+						    $terms_to_add[] = $term;
+					    }
+                    }
 
 					if ( isset( $options['allow_hashtag_format'] ) && (int) $options['allow_hashtag_format'] == 1 && stristr( $content, '#' . $term ) ) {
 						$terms_to_add[] = $term;
@@ -147,6 +160,14 @@ class SimpleTags_Client_Autoterms {
 					if ( preg_match( "/\b" . $preg_term . "\b/i", $content ) ) {
 						$terms_to_add[] = $term;
 					}
+
+                    //make exception for hashtag special character
+                    if (substr($term, 0, strlen('#')) === '#') {
+                        $trim_term = ltrim($term, '#');
+					    if ( preg_match( "/\B(\#+$trim_term\b)(?!;)/i", $content ) ) {
+						    $terms_to_add[] = $term;
+					    }
+                    }
 
 					if ( isset( $options['allow_hashtag_format'] ) && (int) $options['allow_hashtag_format'] == 1 && stristr( $content, '#' . $term ) ) {
 						$terms_to_add[] = $term;

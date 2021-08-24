@@ -1,0 +1,1016 @@
+{
+    "manifest_version": "1.0.7",
+    "title": "Finess \u2013 Sports & Fitness Template Kit for Elementor",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/default-kit.png",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design",
+            "type": "section",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Hero Slider",
+            "screenshot": "screenshots\/block-hero-slider.png",
+            "source": "templates\/block-hero-slider.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/section-hero-slider\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Call to action",
+            "screenshot": "screenshots\/block-call-to-action.png",
+            "source": "templates\/block-call-to-action.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/section-call-to-action\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer Template",
+            "screenshot": "screenshots\/footer-template.jpg",
+            "source": "templates\/footer-template.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/?elementor_library=footer-template-2",
+            "type": "footer",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contacts",
+            "screenshot": "screenshots\/contacts.png",
+            "source": "templates\/contacts.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/contacts\/",
+            "type": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.png",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/home\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Features",
+            "screenshot": "screenshots\/block-features.png",
+            "source": "templates\/block-features.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/section-features\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Schedule",
+            "screenshot": "screenshots\/block-schedule.png",
+            "source": "templates\/block-schedule.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/section-schedule\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Training",
+            "screenshot": "screenshots\/block-training.png",
+            "source": "templates\/block-training.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/section-training\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: FAQ",
+            "screenshot": "screenshots\/block-faq.png",
+            "source": "templates\/block-faq.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/section-faq\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-faq",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Services",
+            "screenshot": "screenshots\/block-services.png",
+            "source": "templates\/block-services.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/section-services\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Prices",
+            "screenshot": "screenshots\/block-prices.jpg",
+            "source": "templates\/block-prices.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/section-prices\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Page Title",
+            "screenshot": "screenshots\/block-page-title.png",
+            "source": "templates\/block-page-title.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/section-page-title\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Testimonials",
+            "screenshot": "screenshots\/block-testimonials.png",
+            "source": "templates\/block-testimonials.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/section-testimonials\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Footer",
+            "screenshot": "screenshots\/block-footer.png",
+            "source": "templates\/block-footer.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/section-footer\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Header",
+            "screenshot": "screenshots\/block-header.png",
+            "source": "templates\/block-header.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/header\/",
+            "type": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Schedule",
+            "screenshot": "screenshots\/schedule.png",
+            "source": "templates\/schedule.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/schedule\/",
+            "type": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Classes",
+            "screenshot": "screenshots\/classes.png",
+            "source": "templates\/classes.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/classes\/",
+            "type": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.png",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/services\/",
+            "type": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.png",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/faq\/",
+            "type": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Prices",
+            "screenshot": "screenshots\/prices.png",
+            "source": "templates\/prices.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/prices\/",
+            "type": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.png",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/template-kit\/team\/",
+            "type": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header Template",
+            "screenshot": "screenshots\/header-template.png",
+            "source": "templates\/header-template.json",
+            "preview_url": "https:\/\/templatekit.merkulov.design\/finess\/?elementor_library=header-template",
+            "type": "header",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "2.9.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "2.8.4",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "woman-doing-crossfit-exercises.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/woman-doing-crossfit-exercises-600x375.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-hero-slider.json",
+                    "name": "Block: Hero Slider"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 247405,
+            "dimensions": [
+                2000,
+                1249
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-78JEET8"
+        },
+        {
+            "filename": "strong-and-beautiful-athletic-woman-training-in-the-gym.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/strong-and-beautiful-athletic-woman-training-in-the-gym-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-hero-slider.json",
+                    "name": "Block: Hero Slider"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-schedule.json",
+                    "name": "Block: Schedule"
+                },
+                {
+                    "source": "templates\/schedule.json",
+                    "name": "Schedule"
+                }
+            ],
+            "filesize": 285507,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PAKG6AK"
+        },
+        {
+            "filename": "pretty-young-yoga-instructor-helping-her-student-in-a-yoga-sessi.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/pretty-young-yoga-instructor-helping-her-student-in-a-yoga-sessi-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-hero-slider.json",
+                    "name": "Block: Hero Slider"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 185742,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KVLPR6S"
+        },
+        {
+            "filename": "fitness-background-with-exercise-plan-notebook.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/fitness-background-with-exercise-plan-notebook-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer-template.json",
+                    "name": "Footer Template"
+                },
+                {
+                    "source": "templates\/contacts.json",
+                    "name": "Contacts"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-footer.json",
+                    "name": "Block: Footer"
+                },
+                {
+                    "source": "templates\/schedule.json",
+                    "name": "Schedule"
+                },
+                {
+                    "source": "templates\/classes.json",
+                    "name": "Classes"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/prices.json",
+                    "name": "Prices"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 593543,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-K2M6FZR"
+        },
+        {
+            "filename": "young-fitness-woman-exercising-with-kettle-bell.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/young-fitness-woman-exercising-with-kettle-bell-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contacts.json",
+                    "name": "Contacts"
+                }
+            ],
+            "filesize": 196177,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PMM2XMS"
+        },
+        {
+            "filename": "a-handsome-black-man-is-engaged-in-a-gym.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/a-handsome-black-man-is-engaged-in-a-gym-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-schedule.json",
+                    "name": "Block: Schedule"
+                },
+                {
+                    "source": "templates\/schedule.json",
+                    "name": "Schedule"
+                }
+            ],
+            "filesize": 483743,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8V7VCGT"
+        },
+        {
+            "filename": "fitness-trainer.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/fitness-trainer-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-schedule.json",
+                    "name": "Block: Schedule"
+                },
+                {
+                    "source": "templates\/schedule.json",
+                    "name": "Schedule"
+                }
+            ],
+            "filesize": 312996,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DLV46WG"
+        },
+        {
+            "filename": "fitness-man-working-out-with-small-dumbbells.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/fitness-man-working-out-with-small-dumbbells-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block: Services"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 152448,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PB893UD"
+        },
+        {
+            "filename": "fitness-girl.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/fitness-girl-600x507.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block: Services"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 149282,
+            "dimensions": [
+                2000,
+                1691
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4TWLPVQ"
+        },
+        {
+            "filename": "fitness-background-sport-equipment-copy-space.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/fitness-background-sport-equipment-copy-space-600x396.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-testimonials.json",
+                    "name": "Block: Testimonials"
+                }
+            ],
+            "filesize": 284208,
+            "dimensions": [
+                2000,
+                1320
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PD4T4XC"
+        },
+        {
+            "filename": "beautiful-young-face.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/beautiful-young-face-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-testimonials.json",
+                    "name": "Block: Testimonials"
+                }
+            ],
+            "filesize": 395986,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P7CC9A6"
+        },
+        {
+            "filename": "face-of-happy-man-outdoors-in-winter.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/face-of-happy-man-outdoors-in-winter-600x378.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-testimonials.json",
+                    "name": "Block: Testimonials"
+                }
+            ],
+            "filesize": 223320,
+            "dimensions": [
+                2000,
+                1259
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P7C9DFA"
+        },
+        {
+            "filename": "model-with-relaxed-expression-on-face.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/model-with-relaxed-expression-on-face-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/block-testimonials.json",
+                    "name": "Block: Testimonials"
+                }
+            ],
+            "filesize": 341655,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PVKCUXE"
+        },
+        {
+            "filename": "fitness-girl-running-on-treadmill.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/fitness-girl-running-on-treadmill-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-training.json",
+                    "name": "Block: Training"
+                },
+                {
+                    "source": "templates\/classes.json",
+                    "name": "Classes"
+                }
+            ],
+            "filesize": 184392,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PLGZAZG"
+        },
+        {
+            "filename": "fitness-man-running-isolated-on-a-gray.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/fitness-man-running-isolated-on-a-gray-600x358.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-page-title.json",
+                    "name": "Block: Page Title"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 312346,
+            "dimensions": [
+                2000,
+                1194
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P34G5QG"
+        },
+        {
+            "filename": "muscular-man-holding-fitness-ball-standing-isolated-on-white.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/muscular-man-holding-fitness-ball-standing-isolated-on-white-600x360.jpg",
+            "templates": [
+                {
+                    "source": "templates\/schedule.json",
+                    "name": "Schedule"
+                }
+            ],
+            "filesize": 240313,
+            "dimensions": [
+                2000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PYHDTUE"
+        },
+        {
+            "filename": "athlete-doing-exercise-with-truck-tyre-crossfit.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/athlete-doing-exercise-with-truck-tyre-crossfit-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/schedule.json",
+                    "name": "Schedule"
+                }
+            ],
+            "filesize": 238443,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3GL2NUH"
+        },
+        {
+            "filename": "fitness.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/fitness-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/schedule.json",
+                    "name": "Schedule"
+                },
+                {
+                    "source": "templates\/classes.json",
+                    "name": "Classes"
+                }
+            ],
+            "filesize": 232119,
+            "dimensions": [
+                2000,
+                1334
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P597MUS"
+        },
+        {
+            "filename": "fitness-woman-training-with-fitness-ball-indoors.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/fitness-woman-training-with-fitness-ball-indoors-600x485.jpg",
+            "templates": [
+                {
+                    "source": "templates\/schedule.json",
+                    "name": "Schedule"
+                }
+            ],
+            "filesize": 273190,
+            "dimensions": [
+                2000,
+                1618
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P2FMDCR"
+        },
+        {
+            "filename": "fitness-handsome-man-doing-push-ups.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/fitness-handsome-man-doing-push-ups-600x384.jpg",
+            "templates": [
+                {
+                    "source": "templates\/schedule.json",
+                    "name": "Schedule"
+                }
+            ],
+            "filesize": 144325,
+            "dimensions": [
+                2000,
+                1281
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PSREVAY"
+        },
+        {
+            "filename": "portrait-of-a-young-fitness-man-doing-plank-exercise.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/portrait-of-a-young-fitness-man-doing-plank-exercise-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/classes.json",
+                    "name": "Classes"
+                }
+            ],
+            "filesize": 248736,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PTZPJKA"
+        },
+        {
+            "filename": "young-woman-workout-in-fitness-club.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/young-woman-workout-in-fitness-club-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/classes.json",
+                    "name": "Classes"
+                }
+            ],
+            "filesize": 171722,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PEA9HMN"
+        },
+        {
+            "filename": "fitness-club-background.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/fitness-club-background-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/classes.json",
+                    "name": "Classes"
+                }
+            ],
+            "filesize": 312207,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZJUNR5T"
+        },
+        {
+            "filename": "fitness-woman-using-exercises-wheel.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/fitness-woman-using-exercises-wheel-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 211397,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PC3TAZS"
+        },
+        {
+            "filename": "fitness-girl.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/fitness-girl-600x904.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 170816,
+            "dimensions": [
+                1328,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3BSJP4A"
+        },
+        {
+            "filename": "attractive-female-doing-kettle-bell-exercise.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/attractive-female-doing-kettle-bell-exercise-600x419.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 169704,
+            "dimensions": [
+                2000,
+                1397
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P9F8BYA"
+        },
+        {
+            "filename": "cheerful-beautiful-fitness-woman-holding-yoga-mat-and-looking-away.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/02\/cheerful-beautiful-fitness-woman-holding-yoga-mat-and-looking-away-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/prices.json",
+                    "name": "Prices"
+                }
+            ],
+            "filesize": 247447,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PMSMVC6"
+        },
+        {
+            "filename": "fitness-lady-holding-jump-rope-posing-over-white-background-panorama.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/fitness-lady-holding-jump-rope-posing-over-white-background-panorama-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 99945,
+            "dimensions": [
+                2000,
+                1125
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-FXNQ979"
+        },
+        {
+            "filename": "girl-in-yellow-running-jacket-and-fitness-leggings-isolated.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/girl-in-yellow-running-jacket-and-fitness-leggings-isolated-600x825.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 196166,
+            "dimensions": [
+                1455,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PKBLNA8"
+        },
+        {
+            "filename": "happy-young-woman-sitting-with-legs-crossed-on-isolated.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/happy-young-woman-sitting-with-legs-crossed-on-isolated-600x899.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 130767,
+            "dimensions": [
+                1335,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PHVHQSZ"
+        },
+        {
+            "filename": "fit-beautiful-woman-with-the-boxing-gloves-isolated-on-white-background.jpg",
+            "thumbnail_url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/fit-beautiful-woman-with-the-boxing-gloves-isolated-on-white-background-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 192620,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PUY5JFQ"
+        }
+    ]
+}

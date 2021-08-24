@@ -1,0 +1,494 @@
+0000.000 (0) Opened log file at time: Sun, 22 Aug 2021 15:15:38 +0000 on https://www.vcarehealth.tk
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 7.4.22 (fpm-fcgi, Linux ip-172-31-22-119 4.19.0-17-cloud-amd64 #1 SMP Debian 4.19.194-3 (2021-07-18) x86_64) MySQL: 10.3.31-MariaDB (max packet size=16777216) WPLANG: en_US Server: Apache/2.4.48 (Unix) OpenSSL/1.1.1d safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 10.2M | 4M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 6192.7 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.010 (0) Semaphore (fd, wp_options) being initialised
+0000.016 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.020 (0) Set semaphore last lock (fd) time to 2021-08-22 15:15:38
+0000.021 (0) Semaphore lock (fd) complete
+0000.027 (0) Backup run: resumption=0, nonce=b93022b7a64a, file_nonce=b93022b7a64a begun at=1629645338 (0s ago), job type=backup
+0000.030 (0) Scheduling a resumption (1) after 300 seconds (1629645638) in case this run gets aborted
+0000.056 (0) Checking if we have a zip executable available
+0000.059 (0) Testing: /usr/bin/zip
+0000.064 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.067 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.069 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.070 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.072 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.076 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.079 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.082 (0) Working binary zip found: /usr/bin/zip
+0000.086 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.095 (0) Creation of backups of directories: beginning
+0000.101 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.655 (0) Total entities for the zip file: 5356 directories, 18733 files (0 skipped as non-modified), 252.6 MB
+0001.668 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.671 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.674 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.677 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.681 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.684 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.687 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.690 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.691 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.695 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.697 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.4 MB, 18733 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.584 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: size is now: 3.60 MB
+0002.589 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 1100 files added (on-disk size: 3732.3 KB)
+0002.591 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 1200 files added (on-disk size: 3732.3 KB)
+0002.594 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 1300 files added (on-disk size: 3732.3 KB)
+0002.597 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 1400 files added (on-disk size: 3732.3 KB)
+0002.599 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 1500 files added (on-disk size: 3732.3 KB)
+0002.602 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 1600 files added (on-disk size: 3732.3 KB)
+0002.605 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 1700 files added (on-disk size: 3732.3 KB)
+0002.607 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 1800 files added (on-disk size: 3732.3 KB)
+0002.610 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 1900 files added (on-disk size: 3732.3 KB)
+0002.613 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 2000 files added (on-disk size: 3732.3 KB)
+0002.614 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.4 MB, 18733 files batched, 1001 (2002) added so far); re-opening (prior size: 3732.3 KB)
+0003.914 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: size is now: 9.80 MB
+0003.919 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 2100 files added (on-disk size: 10003.7 KB)
+0003.922 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 2200 files added (on-disk size: 10003.7 KB)
+0003.925 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 2300 files added (on-disk size: 10003.7 KB)
+0003.927 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 2400 files added (on-disk size: 10003.7 KB)
+0003.930 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 2500 files added (on-disk size: 10003.7 KB)
+0003.933 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 2600 files added (on-disk size: 10003.7 KB)
+0003.936 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 2700 files added (on-disk size: 10003.7 KB)
+0003.939 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 2800 files added (on-disk size: 10003.7 KB)
+0003.942 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 2900 files added (on-disk size: 10003.7 KB)
+0003.945 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 3000 files added (on-disk size: 10003.7 KB)
+0003.946 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.5 MB, 18733 files batched, 1001 (3003) added so far); re-opening (prior size: 10003.7 KB)
+0005.022 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: size is now: 16.70 MB
+0005.029 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 3100 files added (on-disk size: 17095.3 KB)
+0005.031 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 3200 files added (on-disk size: 17095.3 KB)
+0005.034 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 3300 files added (on-disk size: 17095.3 KB)
+0005.037 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 3400 files added (on-disk size: 17095.3 KB)
+0005.039 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 3500 files added (on-disk size: 17095.3 KB)
+0005.042 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 3600 files added (on-disk size: 17095.3 KB)
+0005.045 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 3700 files added (on-disk size: 17095.3 KB)
+0005.047 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 3800 files added (on-disk size: 17095.3 KB)
+0005.050 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 3900 files added (on-disk size: 17095.3 KB)
+0005.053 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 4000 files added (on-disk size: 17095.3 KB)
+0005.054 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.8 MB, 18733 files batched, 1001 (4004) added so far); re-opening (prior size: 17095.3 KB)
+0005.870 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 4100 files added (on-disk size: 18687.2 KB)
+0005.873 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 4200 files added (on-disk size: 18687.2 KB)
+0005.875 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 4300 files added (on-disk size: 18687.2 KB)
+0005.878 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 4400 files added (on-disk size: 18687.2 KB)
+0005.881 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 4500 files added (on-disk size: 18687.2 KB)
+0005.883 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 4600 files added (on-disk size: 18687.2 KB)
+0005.886 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 4700 files added (on-disk size: 18687.2 KB)
+0005.889 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 4800 files added (on-disk size: 18687.2 KB)
+0005.891 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 4900 files added (on-disk size: 18687.2 KB)
+0005.895 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 5000 files added (on-disk size: 18687.2 KB)
+0005.897 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.1 MB, 18733 files batched, 1001 (5005) added so far); re-opening (prior size: 18687.2 KB)
+0006.881 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 5100 files added (on-disk size: 20850.3 KB)
+0006.884 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 5200 files added (on-disk size: 20850.3 KB)
+0006.887 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 5300 files added (on-disk size: 20850.3 KB)
+0006.890 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 5400 files added (on-disk size: 20850.3 KB)
+0006.893 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 5500 files added (on-disk size: 20850.3 KB)
+0006.896 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 5600 files added (on-disk size: 20850.3 KB)
+0006.899 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 5700 files added (on-disk size: 20850.3 KB)
+0006.902 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 5800 files added (on-disk size: 20850.3 KB)
+0006.905 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 5900 files added (on-disk size: 20850.3 KB)
+0006.907 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 6000 files added (on-disk size: 20850.3 KB)
+0006.909 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.5 MB, 18733 files batched, 1001 (6006) added so far); re-opening (prior size: 20850.3 KB)
+0007.565 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 6100 files added (on-disk size: 21666.1 KB)
+0007.568 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 6200 files added (on-disk size: 21666.1 KB)
+0007.571 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 6300 files added (on-disk size: 21666.1 KB)
+0007.574 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 6400 files added (on-disk size: 21666.1 KB)
+0007.577 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 6500 files added (on-disk size: 21666.1 KB)
+0007.579 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 6600 files added (on-disk size: 21666.1 KB)
+0007.582 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 6700 files added (on-disk size: 21666.1 KB)
+0007.585 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 6800 files added (on-disk size: 21666.1 KB)
+0007.587 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 6900 files added (on-disk size: 21666.1 KB)
+0007.590 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 7000 files added (on-disk size: 21666.1 KB)
+0007.592 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.4 MB, 18733 files batched, 1001 (7007) added so far); re-opening (prior size: 21666.1 KB)
+0008.953 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: size is now: 29.90 MB
+0008.959 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 7100 files added (on-disk size: 30576.6 KB)
+0008.963 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 7200 files added (on-disk size: 30576.6 KB)
+0008.966 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 7300 files added (on-disk size: 30576.6 KB)
+0008.969 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 7400 files added (on-disk size: 30576.6 KB)
+0008.972 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 7500 files added (on-disk size: 30576.6 KB)
+0008.975 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 7600 files added (on-disk size: 30576.6 KB)
+0008.978 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 7700 files added (on-disk size: 30576.6 KB)
+0008.982 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 7800 files added (on-disk size: 30576.6 KB)
+0008.983 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 7900 files added (on-disk size: 30576.6 KB)
+0008.987 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 8000 files added (on-disk size: 30576.6 KB)
+0008.989 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.3 MB, 18733 files batched, 1001 (8008) added so far); re-opening (prior size: 30576.6 KB)
+0009.694 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 8100 files added (on-disk size: 32893.7 KB)
+0009.697 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 8200 files added (on-disk size: 32893.7 KB)
+0009.700 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 8300 files added (on-disk size: 32893.7 KB)
+0009.703 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 8400 files added (on-disk size: 32893.7 KB)
+0009.706 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 8500 files added (on-disk size: 32893.7 KB)
+0009.709 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 8600 files added (on-disk size: 32893.7 KB)
+0009.711 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 8700 files added (on-disk size: 32893.7 KB)
+0009.714 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 8800 files added (on-disk size: 32893.7 KB)
+0009.717 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 8900 files added (on-disk size: 32893.7 KB)
+0009.719 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 9000 files added (on-disk size: 32893.7 KB)
+0009.722 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13 MB, 18733 files batched, 1001 (9009) added so far); re-opening (prior size: 32893.7 KB)
+0010.653 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 9100 files added (on-disk size: 34735.5 KB)
+0010.656 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 9200 files added (on-disk size: 34735.5 KB)
+0010.660 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 9300 files added (on-disk size: 34735.5 KB)
+0010.662 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 9400 files added (on-disk size: 34735.5 KB)
+0010.665 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 9500 files added (on-disk size: 34735.5 KB)
+0010.667 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 9600 files added (on-disk size: 34735.5 KB)
+0010.670 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 9700 files added (on-disk size: 34735.5 KB)
+0010.673 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 9800 files added (on-disk size: 34735.5 KB)
+0010.675 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 9900 files added (on-disk size: 34735.5 KB)
+0010.678 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 10000 files added (on-disk size: 34735.5 KB)
+0010.680 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.7 MB, 18733 files batched, 1001 (10010) added so far); re-opening (prior size: 34735.5 KB)
+0011.667 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 10100 files added (on-disk size: 37584 KB)
+0011.691 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 10200 files added (on-disk size: 37584 KB)
+0011.714 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 10300 files added (on-disk size: 37584 KB)
+0011.717 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 10400 files added (on-disk size: 37584 KB)
+0011.719 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 10500 files added (on-disk size: 37584 KB)
+0011.722 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 10600 files added (on-disk size: 37584 KB)
+0011.727 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 10700 files added (on-disk size: 37584 KB)
+0011.729 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 18733 files batched, 718 (10728) added so far); re-opening (prior size: 37584 KB)
+0013.502 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: size is now: 46.20 MB
+0013.508 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.9 s, rate: 13474.6 KB/s)
+0013.512 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.9227750301361, normalised_time=1.8998778436035, max_time=13.509955883026, data points known=1, old_max_bytes=26214400, new_max_bytes=111845734)
+0013.517 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 10800 files added (on-disk size: 47347.7 KB)
+0013.528 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 10900 files added (on-disk size: 47347.7 KB)
+0013.536 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 11000 files added (on-disk size: 47347.7 KB)
+0013.549 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 11100 files added (on-disk size: 47347.7 KB)
+0013.556 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 11200 files added (on-disk size: 47347.7 KB)
+0013.567 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 11300 files added (on-disk size: 47347.7 KB)
+0013.574 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 11400 files added (on-disk size: 47347.7 KB)
+0013.578 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 11500 files added (on-disk size: 47347.7 KB)
+0013.580 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 11600 files added (on-disk size: 47347.7 KB)
+0013.583 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 11700 files added (on-disk size: 47347.7 KB)
+0013.584 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.8 MB, 18733 files batched, 1001 (11729) added so far); re-opening (prior size: 47347.7 KB)
+0014.952 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 11800 files added (on-disk size: 51888.5 KB)
+0014.956 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 11900 files added (on-disk size: 51888.5 KB)
+0014.959 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 12000 files added (on-disk size: 51888.5 KB)
+0014.962 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 12100 files added (on-disk size: 51888.5 KB)
+0014.965 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 12200 files added (on-disk size: 51888.5 KB)
+0014.972 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 12300 files added (on-disk size: 51888.5 KB)
+0014.986 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 12400 files added (on-disk size: 51888.5 KB)
+0014.990 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 12500 files added (on-disk size: 51888.5 KB)
+0014.993 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 12600 files added (on-disk size: 51888.5 KB)
+0014.995 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 12700 files added (on-disk size: 51888.5 KB)
+0014.998 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.8 MB, 18733 files batched, 1001 (12730) added so far); re-opening (prior size: 51888.5 KB)
+0015.974 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 12800 files added (on-disk size: 56260.4 KB)
+0015.982 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 12900 files added (on-disk size: 56260.4 KB)
+0015.990 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 13000 files added (on-disk size: 56260.4 KB)
+0015.994 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 13100 files added (on-disk size: 56260.4 KB)
+0016.011 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 13200 files added (on-disk size: 56260.4 KB)
+0016.027 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 13300 files added (on-disk size: 56260.4 KB)
+0016.038 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 13400 files added (on-disk size: 56260.4 KB)
+0016.047 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 13500 files added (on-disk size: 56260.4 KB)
+0016.058 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 13600 files added (on-disk size: 56260.4 KB)
+0016.065 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 13700 files added (on-disk size: 56260.4 KB)
+0016.067 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (25.1 MB, 18733 files batched, 1001 (13731) added so far); re-opening (prior size: 56260.4 KB)
+0017.988 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 13800 files added (on-disk size: 63205.5 KB)
+0017.992 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 13900 files added (on-disk size: 63205.5 KB)
+0017.995 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 14000 files added (on-disk size: 63205.5 KB)
+0018.003 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 14100 files added (on-disk size: 63205.5 KB)
+0018.023 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 14200 files added (on-disk size: 63205.5 KB)
+0018.030 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 14300 files added (on-disk size: 63205.5 KB)
+0018.043 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 14400 files added (on-disk size: 63205.5 KB)
+0018.046 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 14500 files added (on-disk size: 63205.5 KB)
+0018.048 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 14600 files added (on-disk size: 63205.5 KB)
+0018.050 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 14700 files added (on-disk size: 63205.5 KB)
+0018.053 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.2 MB, 18733 files batched, 1001 (14732) added so far); re-opening (prior size: 63205.5 KB)
+0019.585 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 14800 files added (on-disk size: 68754.1 KB)
+0019.589 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 14900 files added (on-disk size: 68754.1 KB)
+0019.592 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 15000 files added (on-disk size: 68754.1 KB)
+0019.596 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 15100 files added (on-disk size: 68754.1 KB)
+0019.600 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 15200 files added (on-disk size: 68754.1 KB)
+0019.603 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 15300 files added (on-disk size: 68754.1 KB)
+0019.606 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 15400 files added (on-disk size: 68754.1 KB)
+0019.608 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 15500 files added (on-disk size: 68754.1 KB)
+0019.611 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 15600 files added (on-disk size: 68754.1 KB)
+0019.615 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 15700 files added (on-disk size: 68754.1 KB)
+0019.618 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4 MB, 18733 files batched, 1001 (15733) added so far); re-opening (prior size: 68754.1 KB)
+0020.437 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 15800 files added (on-disk size: 70332 KB)
+0020.441 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 15900 files added (on-disk size: 70332 KB)
+0020.451 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 16000 files added (on-disk size: 70332 KB)
+0020.457 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 16100 files added (on-disk size: 70332 KB)
+0020.472 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 16200 files added (on-disk size: 70332 KB)
+0020.509 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 16300 files added (on-disk size: 70332 KB)
+0020.522 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 16400 files added (on-disk size: 70332 KB)
+0020.527 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 16500 files added (on-disk size: 70332 KB)
+0020.530 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 16600 files added (on-disk size: 70332 KB)
+0020.536 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 16700 files added (on-disk size: 70332 KB)
+0020.539 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.7 MB, 18733 files batched, 1001 (16734) added so far); re-opening (prior size: 70332 KB)
+0021.585 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 16800 files added (on-disk size: 73058.8 KB)
+0021.595 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 16900 files added (on-disk size: 73058.8 KB)
+0021.609 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 17000 files added (on-disk size: 73058.8 KB)
+0021.626 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 17100 files added (on-disk size: 73058.8 KB)
+0021.637 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 17200 files added (on-disk size: 73058.8 KB)
+0021.651 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 17300 files added (on-disk size: 73058.8 KB)
+0021.659 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 17400 files added (on-disk size: 73058.8 KB)
+0021.673 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 17500 files added (on-disk size: 73058.8 KB)
+0021.685 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 17600 files added (on-disk size: 73058.8 KB)
+0021.697 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 17700 files added (on-disk size: 73058.8 KB)
+0021.700 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.9 MB, 18733 files batched, 1001 (17735) added so far); re-opening (prior size: 73058.8 KB)
+0022.807 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 17800 files added (on-disk size: 76978.9 KB)
+0022.814 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 17900 files added (on-disk size: 76978.9 KB)
+0022.820 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 18000 files added (on-disk size: 76978.9 KB)
+0022.835 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 18100 files added (on-disk size: 76978.9 KB)
+0022.842 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 18200 files added (on-disk size: 76978.9 KB)
+0022.848 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 18300 files added (on-disk size: 76978.9 KB)
+0022.852 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 18400 files added (on-disk size: 76978.9 KB)
+0022.863 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 18500 files added (on-disk size: 76978.9 KB)
+0022.873 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 18600 files added (on-disk size: 76978.9 KB)
+0022.884 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip.tmp: 18700 files added (on-disk size: 76978.9 KB)
+0024.834 (0) Created plugins zip (0) - 78999.6 KB in 24.7 s (3194.3 KB/s) (sha1: 713b24f6ddd5f299bb8f2c6b8fceb62b1c847ed0, sha256: 7a4ec428a786b83f2b7d7660f3ef4a21aa9401942e083f92493268cd3ddab537)
+0024.844 (0) Beginning creation of dump of themes (split every: 400 MB)
+0024.939 (0) Total entities for the zip file: 197 directories, 847 files (0 skipped as non-modified), 24.2 MB
+0024.944 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.947 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.952 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0024.955 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0024.958 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0024.963 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0024.966 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0024.969 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0026.510 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip.tmp: size is now: 13.00 MB
+0026.675 (0) Created themes zip (0) - 13346.7 KB in 1.8 s (7296.3 KB/s) (sha1: 729f6985a243565bae80a3dd362fec74959a0690, sha256: fae29e005f90dbedb7bf50ba177c7da79a9bc40bbf772fef81b1e46d152baf90)
+0026.682 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0026.682 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content/uploads
+0026.685 (0) finding files: template-kits: adding to list (1)
+0026.686 (0) finding files: 2021: adding to list (2)
+0026.686 (0) finding files: elementor: adding to list (3)
+0026.688 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0026.706 (0) Total entities for the zip file: 18 directories, 469 files (0 skipped as non-modified), 61.9 MB
+0026.709 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0026.711 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0026.714 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0026.715 (0) Zip: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0027.522 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-uploads.zip.tmp: size is now: 57.60 MB
+0028.361 (0) Created uploads zip (0) - 58981.4 KB in 1.7 s (35278.3 KB/s) (sha1: 012d2894ac1e34835d7dd80411432ede16d0a519, sha256: 69c538c4005719fdbd4d4e2643b0c33217cfeeab936cbcda1dcfdbc5c78befce)
+0028.367 (0) Beginning backup of other directories found in the content directory (index: 0)
+0028.370 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0028.372 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content
+0028.373 (0) finding files: themes: skipping: this is the themes directory
+0028.374 (0) finding files: uploads: skipping: this is the uploads directory
+0028.376 (0) finding files: languages: adding to list (1)
+0028.378 (0) finding files: index.php: adding to list (2)
+0028.380 (0) finding files: updraft: skipping: this is the updraft directory
+0028.381 (0) finding files: plugins: skipping: this is the plugins directory
+0028.382 (0) finding files: upgrade: skipping: excluded by options
+0028.388 (0) finding files: mu-plugins: adding to list (3)
+0028.393 (0) Total entities for the zip file: 2 directories, 2 files (0 skipped as non-modified), 0 MB
+0028.398 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-others.zip.tmp: size is now: 0.00 MB
+0028.406 (0) Created others zip (0) - 2.2 KB in 0 s (132.3 KB/s) (sha1: 8fc59094f81d2587b34bdb25e43eb18358cb1157, sha256: 592dc0ed96107aa680fe011c0aea362172f268ea7d7ccfb3e45080cbcdfdb785)
+0028.415 (0) Saving backup status to database (elements: 8)
+0028.420 (0) Beginning creation of database dump (WordPress DB)
+0028.427 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0028.447 (0) Table wp_options: Total expected rows (approximate): 600
+0028.555 (0) Table wp_options: Rows added in this batch (next record: 4285): 608 (uncompressed bytes in this segment=2018173) in 0.11 seconds
+0028.565 (0) Table wp_options: finishing file(s) (2, 402.4 KB)
+0028.570 (0) Table wp_users: Total expected rows (approximate): 1
+0028.573 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1334) in 0.00 seconds
+0028.580 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0028.584 (0) Table wp_usermeta: Total expected rows (approximate): 32
+0028.594 (0) Table wp_usermeta: Rows added in this batch (next record: 32): 32 (uncompressed bytes in this segment=6676) in 0.01 seconds
+0028.604 (0) Table wp_usermeta: finishing file(s) (2, 2.4 KB)
+0028.609 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0028.614 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0028.625 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0028.630 (0) Table wp_comments: Total expected rows (approximate): 1
+0028.638 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2093) in 0.01 seconds
+0028.645 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0028.650 (0) Table wp_links: Total expected rows (approximate): 0
+0028.653 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0028.662 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0028.666 (0) Table wp_postmeta: Total expected rows (approximate): 890
+0028.764 (0) Table wp_postmeta: Rows added in this batch (next record: 1316): 980 (uncompressed bytes in this segment=3106913) in 0.10 seconds
+0028.774 (0) Table wp_postmeta: finishing file(s) (2, 534.8 KB)
+0028.779 (0) Table wp_posts: Total expected rows (approximate): 175
+0028.819 (0) Table wp_posts: Rows added in this batch (next record: 230): 185 (uncompressed bytes in this segment=857399) in 0.04 seconds
+0028.829 (0) Table wp_posts: finishing file(s) (2, 199.3 KB)
+0028.833 (0) Table wp_snippets: Total expected rows (approximate): 5
+0028.840 (0) Table wp_snippets: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2652) in 0.01 seconds
+0028.850 (0) Table wp_snippets: finishing file(s) (2, 0.9 KB)
+0028.855 (0) Table wp_term_relationships: Total expected rows (approximate): 8
+0028.862 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 8 (uncompressed bytes in this segment=785) in 0.00 seconds
+0028.872 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0028.881 (0) Table wp_term_taxonomy: Total expected rows (approximate): 5
+0028.889 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1074) in 0.01 seconds
+0028.899 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0028.903 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0028.914 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0028.924 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0028.929 (0) Table wp_terms: Total expected rows (approximate): 5
+0028.935 (0) Table wp_terms: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=840) in 0.01 seconds
+0028.944 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0028.950 (0) Table wp_e_submissions: Total expected rows (approximate): 0
+0028.954 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2245) in 0.00 seconds
+0028.962 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0028.967 (0) Table wp_e_submissions_actions_log: Total expected rows (approximate): 0
+0028.972 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1244) in 0.00 seconds
+0028.979 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0028.984 (0) Table wp_e_submissions_values: Total expected rows (approximate): 0
+0028.993 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=723) in 0.01 seconds
+0029.026 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0029.032 (0) Table wp_nextend2_image_storage: Total expected rows (approximate): 0
+0029.036 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=668) in 0.00 seconds
+0029.045 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 0.4 KB)
+0029.048 (0) Table wp_nextend2_section_storage: Total expected rows (approximate): 1
+0029.052 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10000): 1 (uncompressed bytes in this segment=1211) in 0.00 seconds
+0029.059 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 0.6 KB)
+0029.063 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0029.069 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.00 seconds
+0029.077 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0029.081 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (approximate): 1
+0029.086 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=20678) in 0.00 seconds
+0029.095 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 3.8 KB)
+0029.100 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0029.104 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=655) in 0.00 seconds
+0029.112 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.3 KB)
+0029.116 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (approximate): 2
+0029.125 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=31048) in 0.01 seconds
+0029.134 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 2.8 KB)
+0029.139 (0) Table wp_wpgmza: Total expected rows (approximate): 1
+0029.147 (0) Table wp_wpgmza: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1536) in 0.01 seconds
+0029.157 (0) Table wp_wpgmza: finishing file(s) (2, 0.6 KB)
+0029.161 (0) Table wp_wpgmza_circles: Total expected rows (approximate): 0
+0029.164 (0) Table wp_wpgmza_circles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=663) in 0.00 seconds
+0029.172 (0) Table wp_wpgmza_circles: finishing file(s) (2, 0.4 KB)
+0029.177 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 1
+0029.184 (0) Table wp_wpgmza_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2499) in 0.01 seconds
+0029.193 (0) Table wp_wpgmza_maps: finishing file(s) (2, 0.8 KB)
+0029.197 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0029.203 (0) Table wp_wpgmza_polygon: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1252) in 0.01 seconds
+0029.213 (0) Table wp_wpgmza_polygon: finishing file(s) (2, 0.4 KB)
+0029.217 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0029.223 (0) Table wp_wpgmza_polylines: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.01 seconds
+0029.232 (0) Table wp_wpgmza_polylines: finishing file(s) (2, 0.4 KB)
+0029.236 (0) Table wp_wpgmza_rectangles: Total expected rows (approximate): 0
+0029.240 (0) Table wp_wpgmza_rectangles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=683) in 0.00 seconds
+0029.249 (0) Table wp_wpgmza_rectangles: finishing file(s) (2, 0.4 KB)
+0029.250 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_options.table.tmpr4286.gz (1/28/fopen): adding to final database dump
+0029.256 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_options.table.gz (2/28/fopen): adding to final database dump
+0029.259 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_users.table.tmpr2.gz (3/28/fopen): adding to final database dump
+0029.261 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_users.table.gz (4/28/fopen): adding to final database dump
+0029.262 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_usermeta.table.tmpr33.gz (5/28/fopen): adding to final database dump
+0029.264 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_usermeta.table.gz (6/28/fopen): adding to final database dump
+0029.265 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_commentmeta.table.tmpr0.gz (7/28/fopen): adding to final database dump
+0029.267 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_commentmeta.table.gz (8/28/fopen): adding to final database dump
+0029.270 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_comments.table.tmpr2.gz (9/28/fopen): adding to final database dump
+0029.270 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_comments.table.gz (10/28/fopen): adding to final database dump
+0029.273 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_links.table.tmpr0.gz (11/28/fopen): adding to final database dump
+0029.274 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_links.table.gz (12/28/fopen): adding to final database dump
+0029.276 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_postmeta.table.tmpr1317.gz (13/28/fopen): adding to final database dump
+0029.282 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_postmeta.table.gz (14/28/fopen): adding to final database dump
+0029.284 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_posts.table.tmpr231.gz (15/28/fopen): adding to final database dump
+0029.288 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_posts.table.gz (16/28/fopen): adding to final database dump
+0029.291 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_snippets.table.tmpr6.gz (17/28/fopen): adding to final database dump
+0029.294 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_snippets.table.gz (18/28/fopen): adding to final database dump
+0029.294 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_term_relationships.table.tmpr100001.gz (19/28/fopen): adding to final database dump
+0029.297 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_term_relationships.table.gz (20/28/fopen): adding to final database dump
+0029.298 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_term_taxonomy.table.tmpr6.gz (21/28/fopen): adding to final database dump
+0029.298 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_term_taxonomy.table.gz (22/28/fopen): adding to final database dump
+0029.301 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_termmeta.table.tmpr0.gz (23/28/fopen): adding to final database dump
+0029.301 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_termmeta.table.gz (24/28/fopen): adding to final database dump
+0029.302 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_terms.table.tmpr6.gz (25/28/fopen): adding to final database dump
+0029.304 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_terms.table.gz (26/28/fopen): adding to final database dump
+0029.306 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_e_submissions.table.tmpr0.gz (27/28/fopen): adding to final database dump
+0029.308 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_e_submissions.table.gz (28/28/fopen): adding to final database dump
+0029.309 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (29/28/fopen): adding to final database dump
+0029.311 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_e_submissions_actions_log.table.gz (30/28/fopen): adding to final database dump
+0029.314 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_e_submissions_values.table.tmpr0.gz (31/28/fopen): adding to final database dump
+0029.316 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_e_submissions_values.table.gz (32/28/fopen): adding to final database dump
+0029.317 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_image_storage.table.tmpr0.gz (33/28/fopen): adding to final database dump
+0029.318 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_image_storage.table.gz (34/28/fopen): adding to final database dump
+0029.320 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_section_storage.table.tmpr10001.gz (35/28/fopen): adding to final database dump
+0029.321 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_section_storage.table.gz (36/28/fopen): adding to final database dump
+0029.322 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (37/28/fopen): adding to final database dump
+0029.324 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_smartslider3_generators.table.gz (38/28/fopen): adding to final database dump
+0029.325 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_smartslider3_sliders.table.tmpr2.gz (39/28/fopen): adding to final database dump
+0029.326 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_smartslider3_sliders.table.gz (40/28/fopen): adding to final database dump
+0029.328 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1.gz (41/28/fopen): adding to final database dump
+0029.329 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (42/28/fopen): adding to final database dump
+0029.330 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_smartslider3_slides.table.tmpr3.gz (43/28/fopen): adding to final database dump
+0029.332 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_nextend2_smartslider3_slides.table.gz (44/28/fopen): adding to final database dump
+0029.333 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza.table.tmpr2.gz (45/28/fopen): adding to final database dump
+0029.335 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza.table.gz (46/28/fopen): adding to final database dump
+0029.337 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza_circles.table.tmpr0.gz (47/28/fopen): adding to final database dump
+0029.338 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza_circles.table.gz (48/28/fopen): adding to final database dump
+0029.340 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza_maps.table.tmpr2.gz (49/28/fopen): adding to final database dump
+0029.341 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza_maps.table.gz (50/28/fopen): adding to final database dump
+0029.342 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza_polygon.table.tmpr0.gz (51/28/fopen): adding to final database dump
+0029.344 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza_polygon.table.gz (52/28/fopen): adding to final database dump
+0029.345 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza_polylines.table.tmpr0.gz (53/28/fopen): adding to final database dump
+0029.346 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza_polylines.table.gz (54/28/fopen): adding to final database dump
+0029.348 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza_rectangles.table.tmpr0.gz (55/28/fopen): adding to final database dump
+0029.351 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db-table-wp_wpgmza_rectangles.table.gz (56/28/fopen): adding to final database dump
+0029.359 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db.gz: finished writing out complete database file (1156.9 KB)
+0029.383 (0) Total database tables backed up: 28 (backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db.gz, size: 1184798, sha1: c9c4b663cea0eeff0ada794dc7e2892e98f0203b, sha256: f9e427f38d155e2b2666d893be0ac3e00a56dcdfd851f77613125fdec0794d69)
+0029.390 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0029.392 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0029.393 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0029.394 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0029.396 (0) backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0029.398 (0) Saving backup history. Total backup size: 148.9 MB
+0029.401 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0029.407 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0029.410 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-fd738074f3316fa9e691f87e1571f903)
+0029.886 (0) Google Drive: creating path: /UpdraftPlus
+0030.827 (0) Google Drive: quota usage: used=554.6 MB, total=10486314.6 MB, available=10485760 MB
+0030.829 (0) Google Drive: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Ebk8Z7HDGB7vVkUQQ--bY3U2F5FVvoQa)
+0031.440 (0) Googledrive chunked upload: 1.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.1 / 16)
+0031.766 (0) Googledrive chunked upload: 3.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.1 / 16)
+0032.113 (0) Googledrive chunked upload: 9.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 11.1 / 16)
+0032.481 (0) Googledrive chunked upload: 19.4 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 11.1 / 16)
+0032.943 (0) Googledrive chunked upload: 40.2 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 11.1 / 16)
+0033.729 (0) Googledrive chunked upload: 81.7 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 11.1 / 16)
+0035.062 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0035.069 (0) Google Drive: OK: Archive backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip uploaded in 4.24 seconds
+0035.070 (0) Recording as successfully uploaded: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip
+0035.083 (0) Deleting local file: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-plugins.zip: OK
+0035.344 (0) Google Drive: quota usage: used=631.7 MB, total=10486391.7 MB, available=10485760 MB
+0035.347 (0) Google Drive: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip: Attempting to upload to Google Drive (into folder id: 1Ebk8Z7HDGB7vVkUQQ--bY3U2F5FVvoQa)
+0035.935 (0) Googledrive chunked upload: 7.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.1 / 16)
+0036.245 (0) Googledrive chunked upload: 23 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.1 / 16)
+0036.585 (0) Googledrive chunked upload: 53.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 11.1 / 16)
+0037.739 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0037.746 (0) Google Drive: OK: Archive backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip uploaded in 2.4 seconds
+0037.748 (0) Recording as successfully uploaded: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip
+0037.753 (0) Deleting local file: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-themes.zip: OK
+0037.976 (0) Google Drive: quota usage: used=644.8 MB, total=10486404.8 MB, available=10485760 MB
+0037.978 (0) Google Drive: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Ebk8Z7HDGB7vVkUQQ--bY3U2F5FVvoQa)
+0038.560 (0) Googledrive chunked upload: 1.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.1 / 16)
+0038.883 (0) Googledrive chunked upload: 5.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.1 / 16)
+0039.233 (0) Googledrive chunked upload: 12.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 11.1 / 16)
+0039.603 (0) Googledrive chunked upload: 26 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 11.1 / 16)
+0040.086 (0) Googledrive chunked upload: 53.8 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 11.1 / 16)
+0041.546 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0041.553 (0) Google Drive: OK: Archive backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-uploads.zip uploaded in 3.57 seconds
+0041.554 (0) Recording as successfully uploaded: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-uploads.zip
+0041.565 (0) Deleting local file: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-uploads.zip: OK
+0041.910 (0) Google Drive: quota usage: used=702.4 MB, total=10486462.4 MB, available=10485760 MB
+0041.913 (0) Google Drive: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-others.zip: Attempting to upload to Google Drive (into folder id: 1Ebk8Z7HDGB7vVkUQQ--bY3U2F5FVvoQa)
+0043.307 (0) Googledrive chunked upload: 100 % uploaded
+0043.314 (0) Google Drive: OK: Archive backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-others.zip uploaded in 1.4 seconds
+0043.316 (0) Recording as successfully uploaded: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-others.zip
+0043.319 (0) Deleting local file: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-others.zip: OK
+0043.530 (0) Google Drive: quota usage: used=702.4 MB, total=10486462.4 MB, available=10485760 MB
+0043.532 (0) Google Drive: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db.gz: Attempting to upload to Google Drive (into folder id: 1Ebk8Z7HDGB7vVkUQQ--bY3U2F5FVvoQa)
+0044.125 (0) Googledrive chunked upload: 88.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.1 / 16)
+0045.181 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0045.187 (0) Google Drive: OK: Archive backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db.gz uploaded in 1.65 seconds
+0045.190 (0) Recording as successfully uploaded: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db.gz
+0045.193 (0) Deleting local file: backup_2021-08-22-1515_wwwvcarehealthtk_b93022b7a64a-db.gz: OK
+0045.199 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0045.202 (0) Number of backup sets in history: 1; groups (db): 1
+0045.202 (0) Examining (for databases) backup set with group_id=0, nonce=b93022b7a64a, datestamp=1629645338 (Aug 22 2021 15:15:38)
+0045.204 (0) This backup set is the backup set just made, so will not be deleted.
+0045.204 (0) Number of backup sets in history: 1; groups (files): 1
+0045.205 (0) Examining (for files) backup set with nonce=b93022b7a64a, datestamp=1629645338 (Aug 22 2021 15:15:38)
+0045.205 (0) This backup set is the backup set just made, so will not be deleted.
+0045.206 (0) This backup set is the backup set just made, so will not be deleted.
+0045.206 (0) This backup set is the backup set just made, so will not be deleted.
+0045.206 (0) This backup set is the backup set just made, so will not be deleted.
+0045.206 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0045.208 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0045.212 (0) Resume backup (b93022b7a64a, 0): finish run
+0045.220 (0) Decremented the semaphore (fd) by 1
+0045.222 (0) Semaphore (fd) unlocked
+0045.223 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0045.229 (0) No email will/can be sent - the user has not configured an email address.
+0045.230 (0) The backup apparently succeeded and is now complete

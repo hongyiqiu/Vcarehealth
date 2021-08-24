@@ -1,0 +1,133 @@
+{
+    "version": "0.4",
+    "title": "Block: Testimonials",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-testimonial",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1"
+    },
+    "content": [
+        {
+            "id": "767c7713",
+            "settings": {
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/fitness-background-sport-equipment-copy-space.jpg",
+                    "id": 504
+                },
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_motion_fx_motion_fx_scrolling": "yes",
+                "background_motion_fx_translateY_effect": "yes",
+                "background_overlay_background": "classic",
+                "background_overlay_color": "#3185FC",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.92000000000000003996802888650563545525074005126953125,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "0",
+                    "bottom": "60",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "_title": "Testimonials"
+            },
+            "elements": [
+                {
+                    "id": "4c4041ee",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "79ae3e35",
+                            "settings": {
+                                "slides": [
+                                    {
+                                        "content": "It\u2019s beautiful, tall and makes my front room look very prestige. Highly recommend\u201d",
+                                        "name": "Eliott Mackie",
+                                        "title": "1 year",
+                                        "image": {
+                                            "url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/beautiful-young-face.jpg",
+                                            "id": 501
+                                        },
+                                        "_id": "99c1a2a"
+                                    },
+                                    {
+                                        "content": "Excellent service ordered lamp Friday & it arrived by Sunday. Lamp is perfect Thank you",
+                                        "name": "Christopher Cardenas",
+                                        "title": "2 months",
+                                        "image": {
+                                            "url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/face-of-happy-man-outdoors-in-winter.jpg",
+                                            "id": 500
+                                        },
+                                        "_id": "269a725"
+                                    },
+                                    {
+                                        "content": "Item arrived quickly and the service was very good. The dress is lovely. It looks and fits...",
+                                        "name": "Anastasia Ibarra",
+                                        "title": "5 months",
+                                        "image": {
+                                            "url": "https:\/\/templatekit.merkulov.design\/finess\/wp-content\/uploads\/sites\/2\/2020\/03\/model-with-relaxed-expression-on-face.jpg",
+                                            "id": 499
+                                        },
+                                        "_id": "a573e83"
+                                    }
+                                ],
+                                "layout": "image_above",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 70,
+                                    "sizes": []
+                                },
+                                "pagination": "",
+                                "image_size_size": "medium",
+                                "content_gap": {
+                                    "unit": "px",
+                                    "size": 10,
+                                    "sizes": []
+                                },
+                                "content_color": "#FFFFFF",
+                                "content_typography_typography": "custom",
+                                "content_typography_font_weight": "500",
+                                "content_typography_font_style": "normal",
+                                "name_color": "rgba(255, 255, 255, 0.92)",
+                                "name_typography_typography": "custom",
+                                "name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "name_typography_font_weight": "500",
+                                "title_color": "rgba(255, 255, 255, 0.71)",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 13,
+                                    "sizes": []
+                                },
+                                "title_typography_font_weight": "500",
+                                "title_typography_text_transform": "uppercase",
+                                "title_typography_font_style": "normal"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "testimonial-carousel",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

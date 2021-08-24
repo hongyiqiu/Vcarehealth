@@ -98,6 +98,10 @@ class Updates {
 			$this->accessControlNewCapabilities();
 		}
 
+		if ( version_compare( $lastActiveVersion, '4.1.3.3', '<' ) ) {
+			$this->accessControlNewCapabilities();
+		}
+
 		do_action( 'aioseo_run_updates', $lastActiveVersion );
 	}
 

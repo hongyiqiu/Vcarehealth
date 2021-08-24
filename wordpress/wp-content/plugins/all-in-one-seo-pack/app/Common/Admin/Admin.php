@@ -995,11 +995,13 @@ class Admin {
 	 * @return array          The modified columns.
 	 */
 	public function postColumns( $columns ) {
-		$pageAnalysisCapability    = aioseo()->access->hasCapability( 'aioseo_page_analysis' );
-		$generalSettingsCapability = aioseo()->access->hasCapability( 'aioseo_page_general_settings' );
+		$canManageSeo = apply_filters( 'aioseo_manage_seo', 'aioseo_manage_seo' );
 		if (
-			! current_user_can( 'aioseo_manage_seo' ) ||
-			( empty( $pageAnalysisCapability ) && empty( $generalSettingsCapability ) )
+			! current_user_can( $canManageSeo ) &&
+			(
+				! current_user_can( 'aioseo_page_general_settings' ) &&
+				! current_user_can( 'aioseo_page_analysis' )
+			)
 		) {
 			return $columns;
 		}
@@ -1023,6 +1025,7 @@ class Admin {
 		if ( ! current_user_can( 'edit_post', $postId ) && ! current_user_can( 'aioseo_manage_seo' ) ) {
 			return;
 		}
+
 		if ( 'aioseo-details' === $columnName ) {
 			// Add this column/post to the localized array.
 			global $wp_scripts;

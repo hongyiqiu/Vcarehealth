@@ -1,0 +1,118 @@
+{
+    "version": "0.4",
+    "title": "Block: FAQ",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-faq",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1"
+    },
+    "content": [
+        {
+            "id": "2976b2b9",
+            "settings": {
+                "gap": "wide",
+                "margin": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": 0,
+                    "bottom": "120",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "_title": "FAQ"
+            },
+            "elements": [
+                {
+                    "id": "545adc16",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "4475ddc1",
+                            "settings": {
+                                "tabs": [
+                                    {
+                                        "tab_title": "I am looking for membership prices. How much does it cost to join?",
+                                        "tab_content": "<p>Pricing will vary depending on your location, but the average cost of monthly membership is $36.50 in the United States and $49 in Canada. Club dues, monthly fees and any additional charges are specific to each independently owned gym.<\/p>",
+                                        "_id": "bc9a2c0"
+                                    },
+                                    {
+                                        "tab_title": "What different contract lengths does Anytime Fitness offer? Can I pay on a month-by-month basis?",
+                                        "tab_content": "<p>At Anytime Fitness, you\u2019ll find varying membership options dependent on your location. Some gyms offer 6, 12 and 18-month options, but you\u2019ll need to check with your local Anytime Fitness to learn about the different types of membership plans available.<\/p>",
+                                        "_id": "f2db2e8"
+                                    },
+                                    {
+                                        "tab_title": "I have family, friends, or a significant other that would like to join the gym with me. Do you offer family or joint membership options?",
+                                        "tab_content": "Our clubs offer a variety of membership options and some locations offer family membership plans and joint memberships. The great thing about Anytime Fitness is that each club is unique, and their membership plans are, too! To find out which membership options are available near you, please visit our Find a Gym page and connect with us!",
+                                        "_id": "454d390"
+                                    },
+                                    {
+                                        "tab_title": "Do you offer student, senior, or military discounts?",
+                                        "tab_content": "We do! Our community is our priority and we are happy to offer student, senior and military discounts as well as insurance discounts. However, it is up to each location to opt-in to offer the discount. It\u2019s always best to check with your local club directly to learn what discounts are available near you. ",
+                                        "_id": "6219cbf"
+                                    }
+                                ],
+                                "border_width": {
+                                    "unit": "px",
+                                    "size": 10,
+                                    "sizes": []
+                                },
+                                "border_color": "#FFFFFF",
+                                "title_background": "#ECEBE7",
+                                "title_color": "#5E6466",
+                                "tab_active_color": "#5E6466",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_weight": "600",
+                                "title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.8000000000000000444089209850062616169452667236328125,
+                                    "sizes": []
+                                },
+                                "title_padding": {
+                                    "unit": "px",
+                                    "top": "32",
+                                    "right": "32",
+                                    "bottom": "32",
+                                    "left": "32",
+                                    "isLinked": true
+                                },
+                                "icon_align": "right",
+                                "icon_color": "rgba(94, 100, 102, 0.7)",
+                                "icon_space": {
+                                    "unit": "px",
+                                    "size": 60,
+                                    "sizes": []
+                                },
+                                "content_typography_typography": "custom",
+                                "content_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "content_padding": {
+                                    "unit": "px",
+                                    "top": "32",
+                                    "right": "32",
+                                    "bottom": "32",
+                                    "left": "32",
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "accordion",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

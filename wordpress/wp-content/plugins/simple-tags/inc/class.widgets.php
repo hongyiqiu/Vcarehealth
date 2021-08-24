@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Simple Tags widget class
+ * TaxoPress widget class
  *
  */
 class SimpleTags_Widget extends WP_Widget {
@@ -9,13 +9,13 @@ class SimpleTags_Widget extends WP_Widget {
 	 * Constructor widget
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public function __construct() {
-		parent::__construct( 'simpletags', __( 'Tag Cloud (Simple Tags)', 'simpletags' ),
+		parent::__construct( 'simpletags', __( 'Tag Cloud (TaxoPress Legacy)', 'simpletags' ),
 			array(
 				'classname'   => 'widget-simpletags',
-				'description' => __( 'Your most used tags in cloud format with dynamic color and many options', 'simpletags' )
+				'description' => __( '[DEPRECATED] - Your most used tags in cloud format with dynamic color and many options', 'simpletags' )
 			)
 		);
 	}
@@ -26,7 +26,7 @@ class SimpleTags_Widget extends WP_Widget {
 	 * @param array $instance
 	 *
 	 * @return string
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function _get_current_taxonomy( $instance ) {
 		if ( ! empty( $instance['taxonomy'] ) && taxonomy_exists( $instance['taxonomy'] ) ) {
@@ -40,7 +40,7 @@ class SimpleTags_Widget extends WP_Widget {
 	 * Default settings for widget
 	 *
 	 * @return array
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public static function get_fields() {
 		return array(
@@ -70,7 +70,7 @@ class SimpleTags_Widget extends WP_Widget {
 	 * @param array $instance
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public function widget( $args, $instance ) {
 		extract( $args );
@@ -96,7 +96,7 @@ class SimpleTags_Widget extends WP_Widget {
 
 		// Set values and clean it
 		foreach ( (array) self::get_fields() as $field => $field_value ) {
-			${$field} = trim( $instance[ $field ] );
+            ${$field} = isset($instance[$field]) ? trim($instance[$field]) : '';
 		}
 
 		$param = '';
@@ -182,13 +182,13 @@ class SimpleTags_Widget extends WP_Widget {
 	 * @param array $old_instance
 	 *
 	 * @return array
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public function update( $new_instance, $old_instance ) {
 		$instance = $old_instance;
 
 		foreach ( (array) self::get_fields() as $field => $field_value ) {
-			$instance[ $field ] = strip_tags( $new_instance[ $field ] );
+			$instance[ $field ] = $new_instance[ $field ];
 		}
 
 		return $instance;
@@ -200,13 +200,13 @@ class SimpleTags_Widget extends WP_Widget {
 	 * @param array $instance
 	 *
 	 * @return void
-	 * @author Amaury Balmer
+	 * @author WebFactory Ltd
 	 */
 	public function form( $instance ) {
 		//Defaults
 		$instance = wp_parse_args( (array) $instance, self::get_fields() );
 		?>
-		<p><?php _e( 'Empty field will use default value.', 'simpletags' ); ?></p>
+		<p style="color:red;"><?php _e( 'This widget is no longer being updated. Please use the "Tag Cloud (TaxoPress Shortcode)" widget instead.', 'simpletags' ); ?></p>
 
 		<p>
 			<label for="<?php echo $this->get_field_id( 'title' ); ?>">

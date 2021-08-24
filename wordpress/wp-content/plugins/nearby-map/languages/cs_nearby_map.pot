@@ -1,0 +1,493 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cs_nearby_map\n"
+"POT-Creation-Date: 2021-05-17 20:57+0000\n"
+"PO-Revision-Date: 2016-03-06 23:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__;esc_attr__;__;_e;esc_attr_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin\n"
+"X-Poedit-SearchPathExcluded-1: css\n"
+"X-Poedit-SearchPathExcluded-2: img\n"
+"X-Poedit-SearchPathExcluded-3: js\n"
+
+#: cs-nearby-map.php:358
+msgid "Directions"
+msgstr ""
+
+#: cs-nearby-map.php:359
+msgid "We couldn't find any result!"
+msgstr ""
+
+#: cs-nearby-map.php:360
+msgid "ratings"
+msgstr ""
+
+#: cs-nearby-map.php:361
+msgid "Reviews"
+msgstr ""
+
+#: cs-nearby-map.php:362
+msgid "Photos"
+msgstr ""
+
+#: cs-nearby-map.php:363
+msgid "Route"
+msgstr ""
+
+#: cs-nearby-map.php:364
+msgid "Open On Google Map"
+msgstr ""
+
+#: cs-nearby-map.php:365
+msgid "Appears also in: "
+msgstr ""
+
+#: cs-nearby-map.php:366
+msgid "Read more reviews"
+msgstr ""
+
+#: cs-nearby-map.php:367
+msgid "Show more"
+msgstr ""
+
+#: cs-nearby-map.php:368
+msgid "Show less"
+msgstr ""
+
+#: cs-nearby-map.php:369
+msgid "away"
+msgstr ""
+
+#: cs-nearby-map.php:370
+msgid "Jan"
+msgstr ""
+
+#: cs-nearby-map.php:371
+msgid "Feb"
+msgstr ""
+
+#: cs-nearby-map.php:372
+msgid "Mar"
+msgstr ""
+
+#: cs-nearby-map.php:373
+msgid "Apr"
+msgstr ""
+
+#: cs-nearby-map.php:374
+msgid "May"
+msgstr ""
+
+#: cs-nearby-map.php:375
+msgid "Jun"
+msgstr ""
+
+#: cs-nearby-map.php:376
+msgid "Jul"
+msgstr ""
+
+#: cs-nearby-map.php:377
+msgid "Aug"
+msgstr ""
+
+#: cs-nearby-map.php:378
+msgid "Sep"
+msgstr ""
+
+#: cs-nearby-map.php:379
+msgid "Oct"
+msgstr ""
+
+#: cs-nearby-map.php:380
+msgid "Nov"
+msgstr ""
+
+#: cs-nearby-map.php:381
+msgid "Dec"
+msgstr ""
+
+#: cs-nearby-map.php:382
+msgid "Point of interest"
+msgstr ""
+
+#: cs-nearby-map.php:417
+msgid "Accounting"
+msgstr ""
+
+#: cs-nearby-map.php:418
+msgid "Airport"
+msgstr ""
+
+#: cs-nearby-map.php:419
+msgid "Amusement park"
+msgstr ""
+
+#: cs-nearby-map.php:420
+msgid "Aquarium"
+msgstr ""
+
+#: cs-nearby-map.php:421
+msgid "Art gallery"
+msgstr ""
+
+#: cs-nearby-map.php:422
+msgid "Atm"
+msgstr ""
+
+#: cs-nearby-map.php:423
+msgid "Bakery"
+msgstr ""
+
+#: cs-nearby-map.php:424
+msgid "Bank"
+msgstr ""
+
+#: cs-nearby-map.php:425
+msgid "Bar"
+msgstr ""
+
+#: cs-nearby-map.php:426
+msgid "Beauty salon"
+msgstr ""
+
+#: cs-nearby-map.php:427
+msgid "Bicycle store"
+msgstr ""
+
+#: cs-nearby-map.php:428
+msgid "Book store"
+msgstr ""
+
+#: cs-nearby-map.php:429
+msgid "Bowling alley"
+msgstr ""
+
+#: cs-nearby-map.php:430
+msgid "Bus station"
+msgstr ""
+
+#: cs-nearby-map.php:431
+msgid "Cafe"
+msgstr ""
+
+#: cs-nearby-map.php:432
+msgid "Campground"
+msgstr ""
+
+#: cs-nearby-map.php:433
+msgid "Car dealer"
+msgstr ""
+
+#: cs-nearby-map.php:434
+msgid "Car rental"
+msgstr ""
+
+#: cs-nearby-map.php:435
+msgid "Car repair"
+msgstr ""
+
+#: cs-nearby-map.php:436
+msgid "Car wash"
+msgstr ""
+
+#: cs-nearby-map.php:437
+msgid "Casino"
+msgstr ""
+
+#: cs-nearby-map.php:438
+msgid "Cemetery"
+msgstr ""
+
+#: cs-nearby-map.php:439
+msgid "Church"
+msgstr ""
+
+#: cs-nearby-map.php:440
+msgid "City hall"
+msgstr ""
+
+#: cs-nearby-map.php:441
+msgid "Clothing store"
+msgstr ""
+
+#: cs-nearby-map.php:442
+msgid "Convenience store"
+msgstr ""
+
+#: cs-nearby-map.php:443
+msgid "Courthouse"
+msgstr ""
+
+#: cs-nearby-map.php:444
+msgid "Dentist"
+msgstr ""
+
+#: cs-nearby-map.php:445
+msgid "Department store"
+msgstr ""
+
+#: cs-nearby-map.php:446
+msgid "Doctor"
+msgstr ""
+
+#: cs-nearby-map.php:447
+msgid "Electrician"
+msgstr ""
+
+#: cs-nearby-map.php:448
+msgid "Electronics store"
+msgstr ""
+
+#: cs-nearby-map.php:449
+msgid "Embassy"
+msgstr ""
+
+#: cs-nearby-map.php:452
+msgid "Fire station"
+msgstr ""
+
+#: cs-nearby-map.php:453
+msgid "Florist"
+msgstr ""
+
+#: cs-nearby-map.php:455
+msgid "Funeral home"
+msgstr ""
+
+#: cs-nearby-map.php:456
+msgid "Furniture store"
+msgstr ""
+
+#: cs-nearby-map.php:457
+msgid "Gas station"
+msgstr ""
+
+#: cs-nearby-map.php:460
+msgid "Gym"
+msgstr ""
+
+#: cs-nearby-map.php:461
+msgid "Hair care"
+msgstr ""
+
+#: cs-nearby-map.php:462
+msgid "Hardware store"
+msgstr ""
+
+#: cs-nearby-map.php:464
+msgid "Hindu temple"
+msgstr ""
+
+#: cs-nearby-map.php:465
+msgid "Home goods store"
+msgstr ""
+
+#: cs-nearby-map.php:466
+msgid "Hospital"
+msgstr ""
+
+#: cs-nearby-map.php:467
+msgid "Insurance agency"
+msgstr ""
+
+#: cs-nearby-map.php:468
+msgid "Jewelry store"
+msgstr ""
+
+#: cs-nearby-map.php:469
+msgid "Laundry"
+msgstr ""
+
+#: cs-nearby-map.php:470
+msgid "Lawyer"
+msgstr ""
+
+#: cs-nearby-map.php:471
+msgid "Library"
+msgstr ""
+
+#: cs-nearby-map.php:472
+msgid "Liquor store"
+msgstr ""
+
+#: cs-nearby-map.php:473
+msgid "Local government office"
+msgstr ""
+
+#: cs-nearby-map.php:474
+msgid "Locksmith"
+msgstr ""
+
+#: cs-nearby-map.php:475
+msgid "Lodging"
+msgstr ""
+
+#: cs-nearby-map.php:476
+msgid "Meal delivery"
+msgstr ""
+
+#: cs-nearby-map.php:477
+msgid "Meal takeaway"
+msgstr ""
+
+#: cs-nearby-map.php:478
+msgid "Mosque"
+msgstr ""
+
+#: cs-nearby-map.php:479
+msgid "Movie rental"
+msgstr ""
+
+#: cs-nearby-map.php:480
+msgid "Movie theater"
+msgstr ""
+
+#: cs-nearby-map.php:481
+msgid "Moving company"
+msgstr ""
+
+#: cs-nearby-map.php:482
+msgid "Museum"
+msgstr ""
+
+#: cs-nearby-map.php:483
+msgid "Night club"
+msgstr ""
+
+#: cs-nearby-map.php:484
+msgid "Painter"
+msgstr ""
+
+#: cs-nearby-map.php:485
+msgid "Park"
+msgstr ""
+
+#: cs-nearby-map.php:486
+msgid "Parking"
+msgstr ""
+
+#: cs-nearby-map.php:487
+msgid "Pet store"
+msgstr ""
+
+#: cs-nearby-map.php:488
+msgid "Pharmacy"
+msgstr ""
+
+#: cs-nearby-map.php:489
+msgid "Physiotherapist"
+msgstr ""
+
+#: cs-nearby-map.php:491
+msgid "Plumber"
+msgstr ""
+
+#: cs-nearby-map.php:492
+msgid "Police"
+msgstr ""
+
+#: cs-nearby-map.php:493
+msgid "Post office"
+msgstr ""
+
+#: cs-nearby-map.php:494
+msgid "Real estate agency"
+msgstr ""
+
+#: cs-nearby-map.php:495
+msgid "Restaurant"
+msgstr ""
+
+#: cs-nearby-map.php:496
+msgid "Roofing contractor"
+msgstr ""
+
+#: cs-nearby-map.php:497
+msgid "Rv park"
+msgstr ""
+
+#: cs-nearby-map.php:498
+msgid "School"
+msgstr ""
+
+#: cs-nearby-map.php:499
+msgid "Shoe store"
+msgstr ""
+
+#: cs-nearby-map.php:500
+msgid "Shopping mall"
+msgstr ""
+
+#: cs-nearby-map.php:501
+msgid "Spa"
+msgstr ""
+
+#: cs-nearby-map.php:502
+msgid "Stadium"
+msgstr ""
+
+#: cs-nearby-map.php:503
+msgid "Storage"
+msgstr ""
+
+#: cs-nearby-map.php:504
+msgid "Store"
+msgstr ""
+
+#: cs-nearby-map.php:505
+msgid "Subway station"
+msgstr ""
+
+#: cs-nearby-map.php:506
+msgid "Synagogue"
+msgstr ""
+
+#: cs-nearby-map.php:507
+msgid "Taxi stand"
+msgstr ""
+
+#: cs-nearby-map.php:508
+msgid "Train station"
+msgstr ""
+
+#: cs-nearby-map.php:509
+msgid "Travel agency"
+msgstr ""
+
+#: cs-nearby-map.php:510
+msgid "University"
+msgstr ""
+
+#: cs-nearby-map.php:511
+msgid "Veterinary care"
+msgstr ""
+
+#: cs-nearby-map.php:512
+msgid "Zoo"
+msgstr ""
+
+#: cs-nearby-map.php:1369
+msgid "Type your address or geolocate your position"
+msgstr ""
+
+#: cs-nearby-map.php:1373
+msgid "Address or Latitude & Longitude"
+msgstr ""
+
+#: cs-nearby-map.php:1377
+msgid "Localize it"
+msgstr ""
+
+#: cs-nearby-map.php:1486
+msgid "New Search"
+msgstr ""

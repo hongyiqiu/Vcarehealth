@@ -1,0 +1,1167 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Progress Map\n"
+"POT-Creation-Date: 2021-05-17 21:46+0000\n"
+"PO-Revision-Date: 2016-03-06 23:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libs\n"
+"X-Poedit-SearchPathExcluded-1: inc\n"
+"X-Poedit-SearchPathExcluded-2: img\n"
+"X-Poedit-SearchPathExcluded-3: assets\n"
+"X-Poedit-SearchPathExcluded-4: admin/libs\n"
+"X-Poedit-SearchPathExcluded-5: admin/img\n"
+
+#: admin/cpt/cspm-post-type.php:233 admin/cpt/cspm-post-type.php:234
+#: admin/cpt/cspm-post-type.php:236 admin/cpt/cspm-post-type.php:238
+msgid "PM. Maps"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:239 admin/cpt/cspm-post-type.php:240
+msgid "Add New Map"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:241
+msgid "Edit Map"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:242
+msgid "New Map"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:243
+msgid "View Map"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:244
+msgid "Search Maps"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:245
+msgid "No Maps found"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:246
+msgid "No Maps found in trash"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:247
+msgid "All Maps"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:250
+msgid "Parent Map"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:251
+msgid "Parent Map:"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:254
+msgid "Maps"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:272
+msgid "Title"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:273
+msgid "Map ID"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:274
+msgid "Shortcode"
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:342 admin/cpt/cspm-post-type.php:343
+#: admin/cpt/cspm-post-type.php:345 admin/cpt/cspm-post-type.php:346
+#: admin/cpt/cspm-post-type.php:350 admin/cpt/cspm-post-type.php:351
+msgid "Map updated."
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:344
+msgid "Map deleted."
+msgstr ""
+
+#: admin/cpt/cspm-post-type.php:347 admin/cpt/cspm-post-type.php:348
+#: admin/cpt/cspm-post-type.php:349
+msgid "Map saved."
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-add-locations-metabox.php:165
+msgid "Progress Map: Add locations"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-add-locations-metabox.php:456
+msgid "Marker label"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:174
+msgid "(Custom) Post Type & Map Settings"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:246
+msgid "Yes. Display locations with no available coordinates"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:247
+msgid "No. Hide locations with no available coordinates"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:268
+msgid "Using the single post URL"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:269
+msgid "From a custom field"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:285
+msgid "Map Shortcode"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:329
+msgid "Progress Map Settings"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:807
+msgid "Custom Field {#}"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:808
+msgid "Add New Custom Field"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:809
+msgid "Remove Custom Fields"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2519
+msgid "\"Single Post\" link"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2520
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2580
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2629
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2679
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2728
+msgid "Add New Item"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2521
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2581
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2630
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2680
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2729
+msgid "Remove Item"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2579
+msgid "\"Media Modal\" link"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2628
+msgid "\"Nearby points of interest\" link"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2678
+msgid "\"Nearby Map\" link"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2727
+msgid "\"Directions\" link"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2784
+msgid "Menu items order"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:2785
+msgid "Change the display order of the menu items"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:3346
+msgid "Marker Image {#}"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:3347
+msgid "Add New Marker Image"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:3348
+msgid "Remove Marker Image"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:3700
+msgid "Color Gradient"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:3819
+msgid "KML/KMZ {#}"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:3820
+msgid "Add New KML/KMZ"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:3821
+msgid "Remove KML/KMZ"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:3958
+msgid "Image {#}"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:3959
+msgid "Add New Image"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:3960
+msgid "Remove Image"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:4190
+msgid "Polyline {#}"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:4191
+msgid "Add New Polyline"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:4192
+msgid "Remove Polyline"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:4529
+msgid "Polygon {#}"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:4530
+msgid "Add New Polygon"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:4531
+msgid "Remove Polygon"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:5083
+msgid "Map fill color & Holes style"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:5181
+msgid "Hole {#}"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:5182
+msgid "Add New Hole"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:5183
+msgid "Remove Hole"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:6740
+msgid "Unit System"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:6742
+msgid ""
+"Choose the unit system to use when displaying & calculating the distance. "
+"Defaults to \"Metric (Km)\"."
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:6752
+msgid "Initial Radius"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:6754
+msgid ""
+"Choose the initial distance from the given location within which to search "
+"for Places, in meters. The minimum allowed value is 5000 meters (which "
+"equals to \"5 Km\" or \"3,106856 Miles\"). Defaults to 5000"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:6766
+msgid "Minimum Radius"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:6768
+msgid ""
+"Choose the minimum distance from the given location within which to search "
+"for Places, in meters. Defaults to 1000"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:6780
+msgid "Maximum Radius"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:6782
+msgid ""
+"Choose the maximum distance from the given location within which to search "
+"for Places, in meters. The maximum allowed value is 50000 meters (which "
+"equals to \"50 Km\" or \"31.06856 Miles\"). Defaults to 50000"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:6843
+msgid "Place Types"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:6845
+msgid "Select the place types to use & change their display order."
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7160
+msgid "Map horizontal elements display order"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7161
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7180
+msgid "Change the display order of the elements displayed on the map"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7165
+msgid "Zooming to country"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7166
+msgid "Map search form"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7167
+msgid "Faceted search form"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7168
+#: shortcodes/cspm-main-map.php:9616 shortcodes/cspm-main-map.php:9617
+msgid "Nearby points of interest"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7169
+#: shortcodes/cspm-main-map.php:9841 shortcodes/cspm-main-map.php:9843
+msgid "KML Layers"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7179
+msgid "Map vertical elements display order"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7184
+msgid "Recenter map"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7185
+msgid "Geo targeting"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7186
+msgid "Heatmap"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7332
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7401
+#: admin/options-page/settings.php:520 admin/options-page/settings.php:2443
+msgid "Posts"
+msgstr ""
+
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7333
+#: admin/cpt/metaboxes/cspm-map-settings-metabox.php:7402
+#: admin/options-page/settings.php:2444
+msgid "Pages"
+msgstr ""
+
+#: admin/options-page/settings.php:129 progress-map.php:1751
+msgid "Progress Map"
+msgstr ""
+
+#: admin/options-page/settings.php:138
+msgid "Settings"
+msgstr ""
+
+#: progress-map.php:957
+msgid "Give Maps permission to use your location!"
+msgstr ""
+
+#: progress-map.php:958
+msgid ""
+"If you can't center the map on your location, a couple of things might be "
+"going on. It's possible you denied Google Maps access to your location in "
+"the past, or your browser might have an error. Please visit the <a href="
+"\"https://support.google.com/maps/answer/2839911?hl=en\" target=\"_blank\" "
+"style=\"color:#202020; text-decoration:underline;\">Google Maps Help</a> for "
+"more details about fixing this issue."
+msgstr ""
+
+#: progress-map.php:959
+msgid ""
+"Browsers no longer supports obtaining the user's location using the HTML5 "
+"Geolocation API from pages delivered by non-secure connections. This means "
+"that the page that's making the Geolocation API call must be served from a "
+"secure context such as HTTPS."
+msgstr ""
+
+#: progress-map.php:965
+msgid "Click to view all markers in this area"
+msgstr ""
+
+#: progress-map.php:971 shortcodes/cspm-main-map.php:3533
+msgid ""
+"A new location has been selected and can be used to display nearby points of "
+"interest!"
+msgstr ""
+
+#: progress-map.php:972
+msgid "First, select a marker/location from the map!"
+msgstr ""
+
+#: progress-map.php:973
+msgid "The circle has reached the maximum distance!"
+msgstr ""
+
+#: progress-map.php:974
+msgid "The circle has reached the minimum distance!"
+msgstr ""
+
+#: progress-map.php:975
+msgid "You have reached the maximum radius of search!"
+msgstr ""
+
+#: progress-map.php:976
+msgid "You have reached the minimum radius of search!"
+msgstr ""
+
+#: progress-map.php:977
+msgid "No nearby points of interest has been found!"
+msgstr ""
+
+#: progress-map.php:983
+msgid "Click to hide & show the image overlay"
+msgstr ""
+
+#: progress-map.php:990
+msgid "Click on the marker to pop-up the media files"
+msgstr ""
+
+#: progress-map.php:991
+msgid "Click on the marker to pop-up the image gallery"
+msgstr ""
+
+#: progress-map.php:992
+msgid "Click on the marker to pop-up the image"
+msgstr ""
+
+#: progress-map.php:993
+msgid "Click on the marker to pop-up to the audio file"
+msgstr ""
+
+#: progress-map.php:994
+msgid "Click on the marker to pop-up the visual file"
+msgstr ""
+
+#: progress-map.php:995
+msgid "Click on the marker to pop-up the post details"
+msgstr ""
+
+#: progress-map.php:996
+msgid "Click on the marker to pop-up the map of all nearby places"
+msgstr ""
+
+#: progress-map.php:998
+msgid "The image appears to be broken"
+msgstr ""
+
+#: progress-map.php:999
+msgid "Resize the circle to show less or more results"
+msgstr ""
+
+#: progress-map.php:1000
+msgid "Click on the nearby marker to display the route and the place details"
+msgstr ""
+
+#: progress-map.php:1001
+msgid "Click on the polyline to open the polyline associated link"
+msgstr ""
+
+#: progress-map.php:1002
+msgid "Click on the polygon to open the polygon associated link"
+msgstr ""
+
+#: progress-map.php:1003
+msgid "Click on the image to open the image associated link"
+msgstr ""
+
+#: progress-map.php:1015
+msgid "We couldn't find any result!"
+msgstr ""
+
+#: progress-map.php:1016
+msgid "The place referenced was not found"
+msgstr ""
+
+#: progress-map.php:1023
+msgid ""
+"The application is not allowed to use the <strong>Places API</strong>. If "
+"you are the administrator of this website, please visit the <strong><a href="
+"\"https://developers.google.com/places/web-service/"
+"faq#why_do_i_keep_receiving_status_request_denied\" target=\"_blank\" style="
+"\"color:#202020; text-decoration:underline;\">Troubleshooting</strong></a> "
+"page for more details on fixing this issue."
+msgstr ""
+
+#: progress-map.php:1024
+msgid ""
+"The request could not be processed due to a server error. The request may "
+"succeed if you try again."
+msgstr ""
+
+#: progress-map.php:1032 progress-map.php:1134
+msgid "The application has gone over its request quota. Try again later."
+msgstr ""
+
+#: progress-map.php:1033
+msgid "This request was invalid."
+msgstr ""
+
+#: progress-map.php:1048
+msgid "No route could be found to your destination. Try another travel mode!"
+msgstr ""
+
+#: progress-map.php:1049
+msgid "No route could be found to your destination. Try another address!"
+msgstr ""
+
+#: progress-map.php:1056
+msgid ""
+"The application is not allowed to use the <strong>Directions API</strong>. "
+"If you are the administrator of this website, please visit your <strong><a "
+"href=\"https://console.developers.google.com/\" target=\"_blank\" style="
+"\"color:#202020; text-decoration:underline;\">Google Cloud Platform Console</"
+"strong></a> and enable the <strong>Directions API</strong>."
+msgstr ""
+
+#: progress-map.php:1057 progress-map.php:1098
+msgid ""
+"The provided DirectionsRequest was invalid. The most common causes of this "
+"error code are requests that are missing either an origin or destination, or "
+"a transit request that includes waypoints."
+msgstr ""
+
+#: progress-map.php:1058
+msgid ""
+"A directions request could not be processed due to a server error. The "
+"request may succeed if you try again."
+msgstr ""
+
+#: progress-map.php:1066
+msgid ""
+"Too many DirectionsWaypoint fields were provided in the DirectionsRequest. "
+"See the \"limits for way points\" https://developers.google.com/maps/"
+"documentation/javascript/directions#waypoint-limits"
+msgstr ""
+
+#: progress-map.php:1067
+msgid ""
+"The requested route is too long and cannot be processed. This error occurs "
+"when more complex directions are returned. Try reducing the number of "
+"waypoints, turns, or instructions."
+msgstr ""
+
+#: progress-map.php:1068
+msgid "The webpage has sent too many requests within the allowed time period."
+msgstr ""
+
+#: progress-map.php:1094
+msgid "No route could be found between the origin and destination."
+msgstr ""
+
+#: progress-map.php:1095
+msgid ""
+"The application is not allowed to use the \"Distance Matrix API\". If you "
+"are the administrator of this website, please visit your \"Google Cloud "
+"Platform Console\" https://console.developers.google.com/ and enable the "
+"\"Distance Matrix API\""
+msgstr ""
+
+#: progress-map.php:1096
+msgid ""
+"Your application has requested too many elements within the allowed time "
+"period. The request should succeed if you try again after a reasonable "
+"amount of time."
+msgstr ""
+
+#: progress-map.php:1097
+msgid ""
+"A Distance Matrix request could not be processed due to a server error. The "
+"request may succeed if you try again."
+msgstr ""
+
+#: progress-map.php:1099
+msgid "The origin and/or destination of this pairing could not be geocoded."
+msgstr ""
+
+#: progress-map.php:1100
+msgid ""
+"The product of origins and destinations exceeds the \"per-query limit\". "
+"Please visit this page for more info https://developers.google.com/maps/"
+"documentation/javascript/distancematrix#usage_limits_and_requirements"
+msgstr ""
+
+#: progress-map.php:1101
+msgid ""
+"Your request contained more than 25 origins, or more than 25 destinations."
+msgstr ""
+
+#: progress-map.php:1116
+msgid "No result was found for this address."
+msgstr ""
+
+#: progress-map.php:1117
+msgid "Please make sure to provide an address or location coordinates."
+msgstr ""
+
+#: progress-map.php:1124
+msgid ""
+"The application is not allowed to use the <strong>Geocoding API</strong>. If "
+"you are the administrator of this website, please visit your <strong><a href="
+"\"https://console.developers.google.com/\" target=\"_blank\" style=\"color:"
+"#202020; text-decoration:underline;\">Google Cloud Platform Console</"
+"strong></a> and enable the <strong>Geocoding API</strong>."
+msgstr ""
+
+#: progress-map.php:1125
+msgid ""
+"A geocoding request could not be processed due to a server error. The "
+"request may succeed if you try again."
+msgstr ""
+
+#: progress-map.php:1126
+msgid ""
+"The request timed out or there was a problem contacting the Google servers. "
+"The request may succeed if you try again."
+msgstr ""
+
+#: progress-map.php:1149
+msgid "All"
+msgstr ""
+
+#: progress-map.php:1150
+msgid "None"
+msgstr ""
+
+#: progress-map.php:1151
+msgid "Type in to search ..."
+msgstr ""
+
+#: progress-map.php:1624
+msgid "PM. Coordinates"
+msgstr ""
+
+#: progress-map.php:1756
+msgid "All maps"
+msgstr ""
+
+#: progress-map.php:1761
+msgid "Add new map"
+msgstr ""
+
+#: progress-map.php:1817
+msgid "Add-ons"
+msgstr ""
+
+#: progress-map.php:1818
+msgid "Documentation"
+msgstr ""
+
+#: shortcodes/cspm-contact-map.php:471 shortcodes/cspm-light-map.php:1035
+#: shortcodes/cspm-main-map.php:7858 shortcodes/cspm-route-map.php:1188
+msgid "Zoom in"
+msgstr ""
+
+#: shortcodes/cspm-contact-map.php:474 shortcodes/cspm-light-map.php:1038
+#: shortcodes/cspm-main-map.php:7861 shortcodes/cspm-route-map.php:1191
+msgid "Zoom out"
+msgstr ""
+
+#: shortcodes/cspm-frontend-form.php:448 shortcodes/cspm-frontend-form.php:453
+#: shortcodes/cspm-main-map.php:9351 shortcodes/cspm-main-map.php:9352
+msgid "Search"
+msgstr ""
+
+#: shortcodes/cspm-frontend-form.php:449
+msgid "Enter an address and search"
+msgstr ""
+
+#: shortcodes/cspm-frontend-form.php:487
+msgid "Latitude"
+msgstr ""
+
+#: shortcodes/cspm-frontend-form.php:492
+msgid "Longitude"
+msgstr ""
+
+#: shortcodes/cspm-frontend-form.php:497
+msgid "Get Pinpoint"
+msgstr ""
+
+#: shortcodes/cspm-frontend-form.php:517
+msgid "Add Location"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:759
+msgid "More"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:873
+msgid "Enter City & Province, or Postal code"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:874
+msgid "Expand the search area up to"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:875
+msgid "We could not find any location"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:876
+msgid "We could not understand the location"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:877
+msgid "- Make sure all street and city names are spelled correctly."
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:878
+msgid "- Make sure your address includes a city and state."
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:879
+msgid "- Try entering a zip code."
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:880
+msgid "Find it"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:6130
+msgid ""
+"The map center is incorrect. Please make sure the Latitude & the Longitude "
+"in \"Map Settings => Map center\" are comma separated!"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:7915
+msgid "Recenter the map"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:7930
+msgid "Show your position"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:7949
+msgid "Toggle the Heatmap layer"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:8816 shortcodes/cspm-main-map.php:8908
+msgid "Toggle carousel"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9227 shortcodes/cspm-main-map.php:9228
+msgid "Filter"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9290
+msgid "No option found!"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9381
+msgid "Your position"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9516 shortcodes/cspm-main-map.php:9518
+msgid "Countries"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9680 shortcodes/cspm-main-map.php:9681
+msgid "Driving"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9684 shortcodes/cspm-main-map.php:9685
+msgid "Transit"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9688 shortcodes/cspm-main-map.php:9689
+msgid "Walking"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9692 shortcodes/cspm-main-map.php:9693
+msgid "Bicycling"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9725
+msgid "Accounting"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9726
+msgid "Airport"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9727
+msgid "Amusement park"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9728
+msgid "Aquarium"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9729
+msgid "Art gallery"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9730
+msgid "Atm"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9731
+msgid "Bakery"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9732
+msgid "Bank"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9733
+msgid "Bar"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9734
+msgid "Beauty salon"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9735
+msgid "Bicycle store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9736
+msgid "Book store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9737
+msgid "Bowling alley"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9738
+msgid "Bus station"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9739
+msgid "Cafe"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9740
+msgid "Campground"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9741
+msgid "Car dealer"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9742
+msgid "Car rental"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9743
+msgid "Car repair"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9744
+msgid "Car wash"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9745
+msgid "Casino"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9746
+msgid "Cemetery"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9747
+msgid "Church"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9748
+msgid "City hall"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9749
+msgid "Clothing store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9750
+msgid "Convenience store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9751
+msgid "Courthouse"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9752
+msgid "Dentist"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9753
+msgid "Department store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9754
+msgid "Doctor"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9755
+msgid "Electrician"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9756
+msgid "Electronics store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9757
+msgid "Embassy"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9760
+msgid "Fire station"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9761
+msgid "Florist"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9763
+msgid "Funeral home"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9764
+msgid "Furniture store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9765
+msgid "Gas station"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9768
+msgid "Gym"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9769
+msgid "Hair care"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9770
+msgid "Hardware store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9772
+msgid "Hindu temple"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9773
+msgid "Home goods store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9774
+msgid "Hospital"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9775
+msgid "Insurance agency"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9776
+msgid "Jewelry store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9777
+msgid "Laundry"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9778
+msgid "Lawyer"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9779
+msgid "Library"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9780
+msgid "Liquor store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9781
+msgid "Local government office"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9782
+msgid "Locksmith"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9783
+msgid "Lodging"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9784
+msgid "Meal delivery"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9785
+msgid "Meal takeaway"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9786
+msgid "Mosque"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9787
+msgid "Movie rental"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9788
+msgid "Movie theater"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9789
+msgid "Moving company"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9790
+msgid "Museum"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9791
+msgid "Night club"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9792
+msgid "Painter"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9793
+msgid "Park"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9794
+msgid "Parking"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9795
+msgid "Pet store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9796
+msgid "Pharmacy"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9797
+msgid "Physiotherapist"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9799
+msgid "Plumber"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9800
+msgid "Police"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9801
+msgid "Post office"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9802
+msgid "Real estate agency"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9803
+msgid "Restaurant"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9804
+msgid "Roofing contractor"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9805
+msgid "Rv park"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9806
+msgid "School"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9807
+msgid "Shoe store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9808
+msgid "Shopping mall"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9809
+msgid "Spa"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9810
+msgid "Stadium"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9811
+msgid "Storage"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9812
+msgid "Store"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9813
+msgid "Subway station"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9814
+msgid "Synagogue"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9815
+msgid "Taxi stand"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9816
+msgid "Train station"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9817
+msgid "Travel agency"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9818
+msgid "University"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9819
+msgid "Veterinary care"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:9820
+msgid "Zoo"
+msgstr ""
+
+#: shortcodes/cspm-main-map.php:10109 shortcodes/cspm-main-map.php:10117
+msgid "Map not available!"
+msgstr ""

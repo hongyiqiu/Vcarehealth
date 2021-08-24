@@ -1,0 +1,18 @@
+{
+	"name": "gmaccario/foursquare-integration",
+    "description": "Foursquare integration WordPress Plugin.",
+    "keywords": ["foursquare", "wordpress", "plugin"],
+    "license": "MIT",
+    "type": "project",
+	"autoload": {
+		"psr-4": {
+			"FSI\\Controller\\Classes\\": "classes/controllers/",
+			"FSI\\General\\Classes\\": "classes/general/",
+			"FSI\\Setup\\Classes\\": "classes/setup/",
+			"FSI\\Foursquare\\Classes\\": "classes/foursquare/"
+		}
+	},
+	"require": {
+		"hownowstephen/php-foursquare": "1.2.*"
+	}
+}

@@ -3,7 +3,7 @@ Contributors: aioseo, smub, benjaminprojas
 Tags: SEO, Google Search Console, XML Sitemap, meta description, schema, meta title, rich snippets, woocommerce seo, local seo, open graph, google news sitemap, video sitemap, robots.txt, seo audit, content analysis, seo plugin, redirection
 Requires at least: 4.9
 Tested up to: 5.8
-Stable tag: 4.1.3.1
+Stable tag: 4.1.3.3
 License: GPLv2 or later
 Requires PHP: 5.4
 
@@ -200,6 +200,14 @@ Visit <a href="http://www.wpbeginner.com/" rel="friend" title="WPBeginner">WPBeg
 
 
 == Changelog ==
+
+**New in version 4.1.3.3 – Released on August 16, 2021**
+
+* Fixed: Additional permissions related issues for Authors and Contributors.
+
+**New in version 4.1.3.2 – Released on August 16, 2021**
+
+* Fixed: AIOSEO Details column not appearing for Editor and other non-admin roles.
 
 **New in version 4.1.3.1 – Released on August 4, 2021**
 
@@ -603,6 +611,6 @@ AIOSEO is the original WordPress SEO plugin, and it's trusted by over 2 million 
 
 == Upgrade Notice ==
 
-= 4.1.3.1 =
+= 4.1.3.3 =
 
 This update adds major improvements and bugfixes.

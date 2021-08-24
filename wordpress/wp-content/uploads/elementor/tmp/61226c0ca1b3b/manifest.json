@@ -1,0 +1,1589 @@
+{
+    "manifest_version": "1.0.9",
+    "title": "Architude",
+    "page_builder": "elementor",
+    "kit_version": "1.0.2",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/default-kit.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Homepage 01",
+            "screenshot": "screenshots\/homepage-01.jpg",
+            "source": "templates\/homepage-01.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/template-kit\/homepage-01\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page 01 - Service",
+            "screenshot": "screenshots\/page-01-service.jpg",
+            "source": "templates\/page-01-service.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/template-kit\/page-01-service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page 02 - Team List",
+            "screenshot": "screenshots\/page-02-team-list.jpg",
+            "source": "templates\/page-02-team-list.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/template-kit\/page-02-team-list\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page 03 - Pricing",
+            "screenshot": "screenshots\/page-03-pricing.jpg",
+            "source": "templates\/page-03-pricing.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/template-kit\/page-03-pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page 04 - Portfolio List",
+            "screenshot": "screenshots\/page-04-portfolio-list.jpg",
+            "source": "templates\/page-04-portfolio-list.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/template-kit\/page-04-portfolio-list\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page 05 - Portfolio Details",
+            "screenshot": "screenshots\/page-05-portfolio-details.jpg",
+            "source": "templates\/page-05-portfolio-details.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/template-kit\/page-05-portfolio-details\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page 06 - About Us",
+            "screenshot": "screenshots\/page-06-about-us.jpg",
+            "source": "templates\/page-06-about-us.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/template-kit\/page-06-about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page 07 - Gallery",
+            "screenshot": "screenshots\/page-07-gallery.jpg",
+            "source": "templates\/page-07-gallery.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/template-kit\/page-07-gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page 08 - FAQ",
+            "screenshot": "screenshots\/page-08-faq.jpg",
+            "source": "templates\/page-08-faq.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/template-kit\/page-08-faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page 09 - Contact",
+            "screenshot": "screenshots\/page-09-contact.jpg",
+            "source": "templates\/page-09-contact.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/template-kit\/page-09-contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Theme Builder \u2013 Footer (Elementor Pro)",
+            "screenshot": "screenshots\/theme-builder-footer-elementor-pro-.jpg",
+            "source": "templates\/theme-builder-footer-elementor-pro-.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/?elementor_library=theme-builder-footer-elementor-pro",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "elementor_pro_required": "1",
+                "include_in_zip": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Theme Builder \u2013 Header (Elementor Pro)",
+            "screenshot": "screenshots\/theme-builder-header-elementor-pro-.jpg",
+            "source": "templates\/theme-builder-header-elementor-pro-.json",
+            "preview_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/?elementor_library=theme-builder-header-elementor-pro",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "elementor_pro_required": "1",
+                "include_in_zip": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "2.9.7",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "2.9.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "vector-architecture-01-3-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/vector-architecture-01-3-tp-600x637.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 9542,
+            "dimensions": [
+                1000,
+                1062
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vector-logos-of-icons-with-architecture-houses-LE9HA22"
+        },
+        {
+            "filename": "modern-architecture-in-berlin-P98426H.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-architecture-in-berlin-P98426H-600x845.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 67259,
+            "dimensions": [
+                727,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-P98426H"
+        },
+        {
+            "filename": "building-P7VHC85.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/building-P7VHC85-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 101667,
+            "dimensions": [
+                683,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-P7VHC85"
+        },
+        {
+            "filename": "architecture-of-madison-P6F39XV.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/architecture-of-madison-P6F39XV-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 74686,
+            "dimensions": [
+                683,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-P6F39XV"
+        },
+        {
+            "filename": "abstract-lines-on-architecture-bridge-closeup-PSFB56D.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/abstract-lines-on-architecture-bridge-closeup-PSFB56D-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 173386,
+            "dimensions": [
+                683,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PSFB56D"
+        },
+        {
+            "filename": "RULERS-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/RULERS-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                }
+            ],
+            "filesize": 1481,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/awr-architectur-outline-NTWUDJF"
+        },
+        {
+            "filename": "CRANE-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/CRANE-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                }
+            ],
+            "filesize": 2267,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/awr-architectur-outline-NTWUDJF"
+        },
+        {
+            "filename": "PROJECT-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/PROJECT-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                },
+                {
+                    "source": "templates\/page-05-portfolio-details.json",
+                    "name": "Page 05 - Portfolio Details"
+                }
+            ],
+            "filesize": 1381,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/awr-architectur-outline-NTWUDJF"
+        },
+        {
+            "filename": "ARCHITEC-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/ARCHITEC-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                }
+            ],
+            "filesize": 2300,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/awr-architectur-outline-NTWUDJF"
+        },
+        {
+            "filename": "details-in-the-facade-of-modern-architecture-PMGT5QT.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/details-in-the-facade-of-modern-architecture-PMGT5QT-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-04-portfolio-list.json",
+                    "name": "Page 04 - Portfolio List"
+                }
+            ],
+            "filesize": 88690,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PMGT5QT"
+        },
+        {
+            "filename": "modern-architecture-building-PD7MHJA.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-architecture-building-PD7MHJA-600x490.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-04-portfolio-list.json",
+                    "name": "Page 04 - Portfolio List"
+                }
+            ],
+            "filesize": 121388,
+            "dimensions": [
+                800,
+                653
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PD7MHJA"
+        },
+        {
+            "filename": "modern-architecture-of-calgary-SLV3F8K.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-architecture-of-calgary-SLV3F8K-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-04-portfolio-list.json",
+                    "name": "Page 04 - Portfolio List"
+                }
+            ],
+            "filesize": 147363,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-SLV3F8K"
+        },
+        {
+            "filename": "modern-urban-architecture-PBM4US7.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-urban-architecture-PBM4US7-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-04-portfolio-list.json",
+                    "name": "Page 04 - Portfolio List"
+                }
+            ],
+            "filesize": 147125,
+            "dimensions": [
+                800,
+                534
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PBM4US7"
+        },
+        {
+            "filename": "modern-architectural-staircase-detail-PEFJR8Y.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-architectural-staircase-detail-PEFJR8Y-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-04-portfolio-list.json",
+                    "name": "Page 04 - Portfolio List"
+                }
+            ],
+            "filesize": 114772,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PEFJR8Y"
+        },
+        {
+            "filename": "amazing-winery-architecture-5QUMPNT.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/amazing-winery-architecture-5QUMPNT-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-04-portfolio-list.json",
+                    "name": "Page 04 - Portfolio List"
+                }
+            ],
+            "filesize": 126639,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-5QUMPNT"
+        },
+        {
+            "filename": "vector-architecture-02-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/vector-architecture-02-tp-600x645.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-04-portfolio-list.json",
+                    "name": "Page 04 - Portfolio List"
+                },
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                },
+                {
+                    "source": "templates\/page-08-faq.json",
+                    "name": "Page 08 - FAQ"
+                },
+                {
+                    "source": "templates\/page-09-contact.json",
+                    "name": "Page 09 - Contact"
+                }
+            ],
+            "filesize": 11156,
+            "dimensions": [
+                800,
+                860
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vector-logos-of-icons-with-architecture-houses-LE9HA22"
+        },
+        {
+            "filename": "BLUEPRINT-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/BLUEPRINT-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                }
+            ],
+            "filesize": 1253,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/awr-architectur-outline-NTWUDJF"
+        },
+        {
+            "filename": "DESIGN-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/DESIGN-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                },
+                {
+                    "source": "templates\/page-05-portfolio-details.json",
+                    "name": "Page 05 - Portfolio Details"
+                }
+            ],
+            "filesize": 1864,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/awr-architectur-outline-NTWUDJF"
+        },
+        {
+            "filename": "DRAWING-BOARD-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/DRAWING-BOARD-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                }
+            ],
+            "filesize": 1512,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/awr-architectur-outline-NTWUDJF"
+        },
+        {
+            "filename": "UNDER-CONSTRUCTION-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/UNDER-CONSTRUCTION-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                },
+                {
+                    "source": "templates\/page-05-portfolio-details.json",
+                    "name": "Page 05 - Portfolio Details"
+                }
+            ],
+            "filesize": 1910,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/awr-architectur-outline-NTWUDJF"
+        },
+        {
+            "filename": "modern-urban-architecture-PB4ECGA.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-urban-architecture-PB4ECGA-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-02-team-list.json",
+                    "name": "Page 02 - Team List"
+                }
+            ],
+            "filesize": 149080,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PB4ECGA"
+        },
+        {
+            "filename": "portrait-of-a-handsome-young-businessman-UKDFNH7.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/portrait-of-a-handsome-young-businessman-UKDFNH7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-02-team-list.json",
+                    "name": "Page 02 - Team List"
+                }
+            ],
+            "filesize": 8514,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-UKDFNH7"
+        },
+        {
+            "filename": "portrait-of-young-businesswoman-PYVKPQ6.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/portrait-of-young-businesswoman-PYVKPQ6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-02-team-list.json",
+                    "name": "Page 02 - Team List"
+                }
+            ],
+            "filesize": 10189,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PYVKPQ6"
+        },
+        {
+            "filename": "logo-04-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/logo-04-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-03-pricing.json",
+                    "name": "Page 03 - Pricing"
+                },
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 1585,
+            "dimensions": [
+                136,
+                104
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/elegant-company-logo-VVLG4M3"
+        },
+        {
+            "filename": "logo-03-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/logo-03-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-03-pricing.json",
+                    "name": "Page 03 - Pricing"
+                },
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 969,
+            "dimensions": [
+                140,
+                57
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/elegant-company-logo-VVLG4M3"
+        },
+        {
+            "filename": "logo-02-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/logo-02-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-03-pricing.json",
+                    "name": "Page 03 - Pricing"
+                },
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 816,
+            "dimensions": [
+                177,
+                25
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/elegant-company-logo-VVLG4M3"
+        },
+        {
+            "filename": "logo-01-tp.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/logo-01-tp.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/page-03-pricing.json",
+                    "name": "Page 03 - Pricing"
+                },
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 827,
+            "dimensions": [
+                159,
+                72
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/elegant-company-logo-VVLG4M3"
+        },
+        {
+            "filename": "business-conference-room-PA6BNMG.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/business-conference-room-PA6BNMG-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 88051,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PA6BNMG"
+        },
+        {
+            "filename": "roof-of-industry-plant-ZQYMXQX.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/roof-of-industry-plant-ZQYMXQX-600x402.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                }
+            ],
+            "filesize": 144680,
+            "dimensions": [
+                1024,
+                685
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZQYMXQX"
+        },
+        {
+            "filename": "team-of-architects-working-on-construction-plans-VUQ9CSE.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/team-of-architects-working-on-construction-plans-VUQ9CSE-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                }
+            ],
+            "filesize": 101906,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VUQ9CSE"
+        },
+        {
+            "filename": "MEASURE.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/MEASURE.png",
+            "templates": [
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                }
+            ],
+            "filesize": 2661,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/awr-architectur-outline-NTWUDJF"
+        },
+        {
+            "filename": "APARTMENT.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/APARTMENT.png",
+            "templates": [
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                }
+            ],
+            "filesize": 2511,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-ARTMENT"
+        },
+        {
+            "filename": "architecture-team-are-having-a-discussion-P5N4WSD.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/architecture-team-are-having-a-discussion-P5N4WSD-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                }
+            ],
+            "filesize": 119635,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P5N4WSD"
+        },
+        {
+            "filename": "vector-architecture-contact-01.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/vector-architecture-contact-01-600x773.png",
+            "templates": [
+                {
+                    "source": "templates\/page-01-service.json",
+                    "name": "Page 01 - Service"
+                },
+                {
+                    "source": "templates\/page-03-pricing.json",
+                    "name": "Page 03 - Pricing"
+                }
+            ],
+            "filesize": 21310,
+            "dimensions": [
+                800,
+                1031
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vector-logos-of-icons-with-architecture-houses-LE9HA22"
+        },
+        {
+            "filename": "abstract-detail-of-modern-urban-architecture-PK4Q58C.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/abstract-detail-of-modern-urban-architecture-PK4Q58C-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-02-team-list.json",
+                    "name": "Page 02 - Team List"
+                }
+            ],
+            "filesize": 96878,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PK4Q58C"
+        },
+        {
+            "filename": "casual-architecture-team-working-together-at-desk-P5KFHQP.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/casual-architecture-team-working-together-at-desk-P5KFHQP-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-02-team-list.json",
+                    "name": "Page 02 - Team List"
+                }
+            ],
+            "filesize": 67580,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-P5KFHQP"
+        },
+        {
+            "filename": "portrait-of-young-businessman-successful-ASX2UNM.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/portrait-of-young-businessman-successful-ASX2UNM.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-02-team-list.json",
+                    "name": "Page 02 - Team List"
+                }
+            ],
+            "filesize": 68444,
+            "dimensions": [
+                600,
+                840
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ASX2UNM"
+        },
+        {
+            "filename": "portrait-of-successful-beautiful-businesswoman-in-G8PJUR4.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/portrait-of-successful-beautiful-businesswoman-in-G8PJUR4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-02-team-list.json",
+                    "name": "Page 02 - Team List"
+                }
+            ],
+            "filesize": 77308,
+            "dimensions": [
+                600,
+                840
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-G8PJUR4"
+        },
+        {
+            "filename": "a-waist-up-portrait-of-businessman-with-WTM54HE.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/a-waist-up-portrait-of-businessman-with-WTM54HE.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-02-team-list.json",
+                    "name": "Page 02 - Team List"
+                }
+            ],
+            "filesize": 86141,
+            "dimensions": [
+                600,
+                840
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-WTM54HE"
+        },
+        {
+            "filename": "millennial-muslim-girl-in-headscarf-posing-at-QWFMHJN.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/millennial-muslim-girl-in-headscarf-posing-at-QWFMHJN.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-02-team-list.json",
+                    "name": "Page 02 - Team List"
+                }
+            ],
+            "filesize": 70022,
+            "dimensions": [
+                600,
+                840
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QWFMHJN"
+        },
+        {
+            "filename": "portrait-of-businessman-standing-in-modern-KERTNLY.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/portrait-of-businessman-standing-in-modern-KERTNLY.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-02-team-list.json",
+                    "name": "Page 02 - Team List"
+                }
+            ],
+            "filesize": 88078,
+            "dimensions": [
+                600,
+                840
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KERTNLY"
+        },
+        {
+            "filename": "portrait-of-construction-architects-engineers-XAYJSNV.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/portrait-of-construction-architects-engineers-XAYJSNV.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-02-team-list.json",
+                    "name": "Page 02 - Team List"
+                }
+            ],
+            "filesize": 104926,
+            "dimensions": [
+                600,
+                840
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XAYJSNV"
+        },
+        {
+            "filename": "glass-wall-SC7KY8N.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/glass-wall-SC7KY8N-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-03-pricing.json",
+                    "name": "Page 03 - Pricing"
+                }
+            ],
+            "filesize": 136581,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-SC7KY8N"
+        },
+        {
+            "filename": "modern-architecture-on-huangpu-riverside-RHX7SCK.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-architecture-on-huangpu-riverside-RHX7SCK-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-04-portfolio-list.json",
+                    "name": "Page 04 - Portfolio List"
+                }
+            ],
+            "filesize": 128879,
+            "dimensions": [
+                1024,
+                576
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-RHX7SCK"
+        },
+        {
+            "filename": "modern-architecture-urban-background-PD94QWY.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-architecture-urban-background-PD94QWY-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-04-portfolio-list.json",
+                    "name": "Page 04 - Portfolio List"
+                },
+                {
+                    "source": "templates\/page-06-about-us.json",
+                    "name": "Page 06 - About Us"
+                }
+            ],
+            "filesize": 82382,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PD94QWY"
+        },
+        {
+            "filename": "modern-building-exterior-wall-closeup-ddddd.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-building-exterior-wall-closeup-ddddd-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-05-portfolio-details.json",
+                    "name": "Page 05 - Portfolio Details"
+                }
+            ],
+            "filesize": 173120,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/modern-building-exterior-wall-closeup-PFEC3P6"
+        },
+        {
+            "filename": "architecture-of-chicago-at-night-ZBCP2K7167.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/architecture-of-chicago-at-night-ZBCP2K7167-600x263.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-05-portfolio-details.json",
+                    "name": "Page 05 - Portfolio Details"
+                }
+            ],
+            "filesize": 92721,
+            "dimensions": [
+                1024,
+                448
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-P2K7167"
+        },
+        {
+            "filename": "modern-architecture-of-regina-RACK4BJ167.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-architecture-of-regina-RACK4BJ167-600x263.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-05-portfolio-details.json",
+                    "name": "Page 05 - Portfolio Details"
+                }
+            ],
+            "filesize": 75560,
+            "dimensions": [
+                1024,
+                448
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-K4BJ167"
+        },
+        {
+            "filename": "team-of-business-people-in-group-architect-and-MR56TF7.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/team-of-business-people-in-group-architect-and-MR56TF7-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-05-portfolio-details.json",
+                    "name": "Page 05 - Portfolio Details"
+                }
+            ],
+            "filesize": 75786,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MR56TF7"
+        },
+        {
+            "filename": "architecture-engineering-young-teamwork-meeting-N3UTHW8.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/architecture-engineering-young-teamwork-meeting-N3UTHW8-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-05-portfolio-details.json",
+                    "name": "Page 05 - Portfolio Details"
+                }
+            ],
+            "filesize": 85681,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-N3UTHW8"
+        },
+        {
+            "filename": "skyscrapers-and-modern-architecture-in-vienna-PW52HE9.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/skyscrapers-and-modern-architecture-in-vienna-PW52HE9-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-06-about-us.json",
+                    "name": "Page 06 - About Us"
+                }
+            ],
+            "filesize": 123422,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PW52HE9"
+        },
+        {
+            "filename": "architect-presenting-a-design-model-to-business-P5JEX34.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/architect-presenting-a-design-model-to-business-P5JEX34-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-06-about-us.json",
+                    "name": "Page 06 - About Us"
+                }
+            ],
+            "filesize": 124793,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P5JEX34"
+        },
+        {
+            "filename": "architect-at-work-PLX678F.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/architect-at-work-PLX678F-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-06-about-us.json",
+                    "name": "Page 06 - About Us"
+                }
+            ],
+            "filesize": 89135,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PLX678F"
+        },
+        {
+            "filename": "beautiful-architecture-office-business-building-SYXT2V9.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/beautiful-architecture-office-business-building-SYXT2V9-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 118466,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-SYXT2V9"
+        },
+        {
+            "filename": "architecture-engineering-teamwork-meeting-at-J6EXU74.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/architecture-engineering-teamwork-meeting-at-J6EXU74-600x428.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 82679,
+            "dimensions": [
+                800,
+                571
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-J6EXU74"
+        },
+        {
+            "filename": "industrial-roof-system-of-monastery-building-with-PKGXW3N.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/industrial-roof-system-of-monastery-building-with-PKGXW3N-600x428.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 153860,
+            "dimensions": [
+                800,
+                571
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PKGXW3N"
+        },
+        {
+            "filename": "modern-architectural-building-with-greenery-PCVH6RQ.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-architectural-building-with-greenery-PCVH6RQ-600x429.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 82467,
+            "dimensions": [
+                800,
+                572
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PCVH6RQ"
+        },
+        {
+            "filename": "plan-of-building-architectural-project-background-P2CGCM8.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/plan-of-building-architectural-project-background-P2CGCM8-600x429.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 83832,
+            "dimensions": [
+                800,
+                572
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-P2CGCM8"
+        },
+        {
+            "filename": "civil-architect-and-construction-manager-dressed-86ARGLM.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/civil-architect-and-construction-manager-dressed-86ARGLM-600x429.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 140909,
+            "dimensions": [
+                800,
+                572
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-86ARGLM"
+        },
+        {
+            "filename": "close-up-picture-of-modern-building-facade-PKBKHYY.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/close-up-picture-of-modern-building-facade-PKBKHYY-600x428.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 127703,
+            "dimensions": [
+                800,
+                571
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PKBKHYY"
+        },
+        {
+            "filename": "unique-modern-office-building-B2NLTRV.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/unique-modern-office-building-B2NLTRV-600x428.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 128775,
+            "dimensions": [
+                800,
+                571
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-B2NLTRV"
+        },
+        {
+            "filename": "industrial-machinery-on-construction-site-TCLR5AZ.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/industrial-machinery-on-construction-site-TCLR5AZ-600x428.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 144010,
+            "dimensions": [
+                800,
+                571
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-TCLR5AZ"
+        },
+        {
+            "filename": "crane-and-building-construction-site-against-blue-P9Z23PE.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/crane-and-building-construction-site-against-blue-P9Z23PE-600x428.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-07-gallery.json",
+                    "name": "Page 07 - Gallery"
+                }
+            ],
+            "filesize": 91869,
+            "dimensions": [
+                800,
+                571
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-P9Z23PE"
+        },
+        {
+            "filename": "modern-architectural-details-S8WR3BP.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-architectural-details-S8WR3BP-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-08-faq.json",
+                    "name": "Page 08 - FAQ"
+                }
+            ],
+            "filesize": 139389,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-S8WR3BP"
+        },
+        {
+            "filename": "modern-architecture-P432XXS.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/modern-architecture-P432XXS-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-09-contact.json",
+                    "name": "Page 09 - Contact"
+                }
+            ],
+            "filesize": 200795,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-P432XXS"
+        },
+        {
+            "filename": "call-center-operator-with-headphones-CDXHKBR.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/call-center-operator-with-headphones-CDXHKBR-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-09-contact.json",
+                    "name": "Page 09 - Contact"
+                }
+            ],
+            "filesize": 88107,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-CDXHKBR"
+        },
+        {
+            "filename": "smiling-young-businessman-meeting-with-coworkers-23F4SQH.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/smiling-young-businessman-meeting-with-coworkers-23F4SQH-600x440.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-09-contact.json",
+                    "name": "Page 09 - Contact"
+                }
+            ],
+            "filesize": 76749,
+            "dimensions": [
+                1024,
+                750
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-23F4SQH"
+        },
+        {
+            "filename": "logo.png",
+            "thumbnail_url": "https:\/\/templatekit.tokopress.com\/architecturekit\/wp-content\/uploads\/sites\/8\/2020\/03\/logo.png",
+            "templates": [
+                {
+                    "source": "templates\/theme-builder-footer-elementor-pro-.json",
+                    "name": "Theme Builder \u2013 Footer (Elementor Pro)"
+                },
+                {
+                    "source": "templates\/theme-builder-header-elementor-pro-.json",
+                    "name": "Theme Builder \u2013 Header (Elementor Pro)"
+                }
+            ],
+            "filesize": 2941,
+            "dimensions": [
+                142,
+                104
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/the-logos-60-SYXSJF"
+        }
+    ]
+}

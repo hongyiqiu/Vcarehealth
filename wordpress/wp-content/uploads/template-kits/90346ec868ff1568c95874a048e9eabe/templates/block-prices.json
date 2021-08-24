@@ -1,0 +1,736 @@
+{
+    "version": "0.4",
+    "title": "Block: Prices",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-pricing",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1"
+    },
+    "content": [
+        {
+            "id": "2f6714c9",
+            "settings": {
+                "structure": "30",
+                "margin": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": 0,
+                    "bottom": "80",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "gap": "wider",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "_title": "Prices"
+            },
+            "elements": [
+                {
+                    "id": "74151d5d",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "f52cdd2",
+                            "settings": {
+                                "heading": "Novice",
+                                "sub_heading": "initial training level ",
+                                "price": "29.99",
+                                "period": "Monthly",
+                                "features_list": [
+                                    {
+                                        "item_text": "Includes T-Shirt**",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "_id": "c465d65",
+                                        "item_icon_color": "#61CE70"
+                                    },
+                                    {
+                                        "item_text": "Unlimited access to club",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "_id": "8aaad5d",
+                                        "item_icon_color": "#61CE70"
+                                    },
+                                    {
+                                        "item_text": "Unlimited Fitness Training",
+                                        "selected_item_icon": {
+                                            "value": "far fa-times-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "_id": "a010e9d",
+                                        "item_icon_color": "rgba(94, 100, 102, 0.7)"
+                                    },
+                                    {
+                                        "item_text": "Reciprocal use of all ",
+                                        "selected_item_icon": {
+                                            "value": "far fa-times-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "rgba(94, 100, 102, 0.7)",
+                                        "_id": "0e449b3"
+                                    },
+                                    {
+                                        "item_text": "Unlimited guest privileges",
+                                        "selected_item_icon": {
+                                            "value": "far fa-times-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "rgba(94, 100, 102, 0.7)",
+                                        "_id": "3547952"
+                                    },
+                                    {
+                                        "item_text": "Use of Tanning",
+                                        "selected_item_icon": {
+                                            "value": "far fa-times-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "rgba(94, 100, 102, 0.7)",
+                                        "_id": "d2b905f"
+                                    },
+                                    {
+                                        "item_text": "1\/2 Price Cooler Drinks",
+                                        "selected_item_icon": {
+                                            "value": "far fa-times-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "rgba(94, 100, 102, 0.7)",
+                                        "_id": "9ca7478"
+                                    },
+                                    {
+                                        "item_text": "Unlimited use of Massage",
+                                        "selected_item_icon": {
+                                            "value": "far fa-times-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "rgba(94, 100, 102, 0.7)",
+                                        "_id": "f3f35ed"
+                                    }
+                                ],
+                                "button_text": "Get this plan",
+                                "footer_additional_info": "10% off for renew",
+                                "show_ribbon": "",
+                                "ribbon_title": "Popular",
+                                "header_bg_color": "#FFFFFF",
+                                "header_padding": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "heading_color": "#00C517",
+                                "heading_typography_typography": "custom",
+                                "heading_typography_font_family": "Open Sans",
+                                "heading_typography_font_weight": "700",
+                                "heading_typography_text_transform": "uppercase",
+                                "heading_typography_font_style": "italic",
+                                "sub_heading_color": "#5E6466",
+                                "sub_heading_typography_typography": "custom",
+                                "sub_heading_typography_font_family": "Open Sans",
+                                "sub_heading_typography_text_transform": "uppercase",
+                                "pricing_element_bg_color": "#ECF4FC",
+                                "pricing_element_padding": {
+                                    "unit": "px",
+                                    "top": "42",
+                                    "right": "0",
+                                    "bottom": "28",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "price_color": "#3185FC",
+                                "price_typography_typography": "custom",
+                                "price_typography_font_family": "Open Sans",
+                                "currency_size": {
+                                    "unit": "px",
+                                    "size": 74,
+                                    "sizes": []
+                                },
+                                "currency_vertical_position": "middle",
+                                "period_color": "#585F78",
+                                "period_typography_typography": "custom",
+                                "period_typography_font_family": "Open Sans",
+                                "period_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 12,
+                                    "sizes": []
+                                },
+                                "period_typography_text_transform": "uppercase",
+                                "period_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "features_list_bg_color": "#FFFFFF",
+                                "features_list_padding": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "features_list_color": "#5E6466",
+                                "features_list_typography_typography": "custom",
+                                "features_list_typography_font_family": "Open Sans",
+                                "features_list_alignment": "center",
+                                "divider_color": "#ECEBE7",
+                                "divider_weight": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                },
+                                "divider_gap": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "footer_bg_color": "#FFFFFF",
+                                "footer_padding": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "button_text_color": "#FFFFFF",
+                                "button_typography_typography": "custom",
+                                "button_typography_font_family": "Open Sans",
+                                "button_background_color": "#3185FC",
+                                "button_hover_color": "#2A2D2E",
+                                "button_background_hover_color": "#F9DC5C",
+                                "additional_info_color": "#5E6466",
+                                "additional_info_typography_typography": "custom",
+                                "additional_info_typography_font_family": "Open Sans",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "12",
+                                    "right": "12",
+                                    "bottom": "12",
+                                    "left": "12",
+                                    "isLinked": true
+                                },
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 1,
+                                    "blur": 10,
+                                    "spread": -4,
+                                    "color": "rgba(0, 0, 0, 0.2)"
+                                },
+                                "_border_radius_hover": {
+                                    "unit": "px",
+                                    "top": "12",
+                                    "right": "12",
+                                    "bottom": "12",
+                                    "left": "12",
+                                    "isLinked": true
+                                },
+                                "_box_shadow_hover_box_shadow_type": "yes",
+                                "_box_shadow_hover_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 4,
+                                    "blur": 16,
+                                    "spread": -4,
+                                    "color": "rgba(0, 0, 0, 0.3)"
+                                },
+                                "_border_hover_transition": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "price-table",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "775bdbf3",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "53d7e476",
+                            "settings": {
+                                "heading": "Semi-pro",
+                                "sub_heading": "initial training level ",
+                                "price": "49.99",
+                                "period": "Monthly",
+                                "features_list": [
+                                    {
+                                        "item_text": "Includes T-Shirt**",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "_id": "c465d65",
+                                        "item_icon_color": "#61CE70"
+                                    },
+                                    {
+                                        "item_text": "Unlimited access to club",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "_id": "8aaad5d",
+                                        "item_icon_color": "#61CE70"
+                                    },
+                                    {
+                                        "item_text": "Unlimited Fitness Training",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "_id": "a010e9d",
+                                        "item_icon_color": "#61CE70"
+                                    },
+                                    {
+                                        "item_text": "Reciprocal use of all",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "#61CE70",
+                                        "_id": "0e449b3"
+                                    },
+                                    {
+                                        "item_text": "Unlimited guest privileges",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "#61CE70",
+                                        "_id": "3547952"
+                                    },
+                                    {
+                                        "item_text": "Use of Tanning",
+                                        "selected_item_icon": {
+                                            "value": "far fa-times-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "rgba(94, 100, 102, 0.7)",
+                                        "_id": "d2b905f"
+                                    },
+                                    {
+                                        "item_text": "1\/2 Price Cooler Drinks",
+                                        "selected_item_icon": {
+                                            "value": "far fa-times-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "rgba(94, 100, 102, 0.7)",
+                                        "_id": "9ca7478"
+                                    },
+                                    {
+                                        "item_text": "Unlimited use of Massage",
+                                        "selected_item_icon": {
+                                            "value": "far fa-times-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "rgba(94, 100, 102, 0.7)",
+                                        "_id": "f3f35ed"
+                                    }
+                                ],
+                                "button_text": "Get this plan",
+                                "footer_additional_info": "10% off for renew",
+                                "show_ribbon": "",
+                                "ribbon_title": "Popular",
+                                "header_bg_color": "#FFFFFF",
+                                "header_padding": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "heading_color": "#EA9A00",
+                                "heading_typography_typography": "custom",
+                                "heading_typography_font_family": "Open Sans",
+                                "heading_typography_font_weight": "700",
+                                "heading_typography_text_transform": "uppercase",
+                                "heading_typography_font_style": "italic",
+                                "sub_heading_color": "#5E6466",
+                                "sub_heading_typography_typography": "custom",
+                                "sub_heading_typography_font_family": "Open Sans",
+                                "sub_heading_typography_text_transform": "uppercase",
+                                "pricing_element_bg_color": "#ECF4FC",
+                                "pricing_element_padding": {
+                                    "unit": "px",
+                                    "top": "42",
+                                    "right": "0",
+                                    "bottom": "28",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "price_color": "#3185FC",
+                                "price_typography_typography": "custom",
+                                "price_typography_font_family": "Open Sans",
+                                "currency_size": {
+                                    "unit": "px",
+                                    "size": 79,
+                                    "sizes": []
+                                },
+                                "currency_vertical_position": "middle",
+                                "period_color": "#585F78",
+                                "period_typography_typography": "custom",
+                                "period_typography_font_family": "Open Sans",
+                                "period_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 12,
+                                    "sizes": []
+                                },
+                                "period_typography_text_transform": "uppercase",
+                                "period_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "features_list_bg_color": "#FFFFFF",
+                                "features_list_padding": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "features_list_color": "#5E6466",
+                                "features_list_typography_typography": "custom",
+                                "features_list_typography_font_family": "Open Sans",
+                                "features_list_alignment": "center",
+                                "divider_color": "#ECEBE7",
+                                "divider_weight": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                },
+                                "divider_gap": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "footer_bg_color": "#FFFFFF",
+                                "footer_padding": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "button_text_color": "#FFFFFF",
+                                "button_typography_typography": "custom",
+                                "button_typography_font_family": "Open Sans",
+                                "button_background_color": "#3185FC",
+                                "button_hover_color": "#2A2D2E",
+                                "button_background_hover_color": "#F9DC5C",
+                                "additional_info_color": "#5E6466",
+                                "additional_info_typography_typography": "custom",
+                                "additional_info_typography_font_family": "Open Sans",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "12",
+                                    "right": "12",
+                                    "bottom": "12",
+                                    "left": "12",
+                                    "isLinked": true
+                                },
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 1,
+                                    "blur": 10,
+                                    "spread": -4,
+                                    "color": "rgba(0, 0, 0, 0.2)"
+                                },
+                                "_border_radius_hover": {
+                                    "unit": "px",
+                                    "top": "12",
+                                    "right": "12",
+                                    "bottom": "12",
+                                    "left": "12",
+                                    "isLinked": true
+                                },
+                                "_box_shadow_hover_box_shadow_type": "yes",
+                                "_box_shadow_hover_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 4,
+                                    "blur": 16,
+                                    "spread": -4,
+                                    "color": "rgba(0, 0, 0, 0.3)"
+                                },
+                                "_border_hover_transition": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "price-table",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "90a87fd",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "7486f40d",
+                            "settings": {
+                                "heading": "Pro",
+                                "sub_heading": "initial training level ",
+                                "price": "99.99",
+                                "period": "Monthly",
+                                "features_list": [
+                                    {
+                                        "item_text": "Includes T-Shirt**",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "_id": "c465d65",
+                                        "item_icon_color": "#61CE70"
+                                    },
+                                    {
+                                        "item_text": "Unlimited access to club",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "_id": "8aaad5d",
+                                        "item_icon_color": "#61CE70"
+                                    },
+                                    {
+                                        "item_text": "Unlimited Fitness Training",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "_id": "a010e9d",
+                                        "item_icon_color": "#61CE70"
+                                    },
+                                    {
+                                        "item_text": "Reciprocal use of all",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "#61CE70",
+                                        "_id": "0e449b3"
+                                    },
+                                    {
+                                        "item_text": "Unlimited guest privileges",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "#61CE70",
+                                        "_id": "3547952"
+                                    },
+                                    {
+                                        "item_text": "Use of Tanning",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "#61CE70",
+                                        "_id": "d2b905f"
+                                    },
+                                    {
+                                        "item_text": "1\/2 Price Cooler Drinks",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "#61CE70",
+                                        "_id": "9ca7478"
+                                    },
+                                    {
+                                        "item_text": "Unlimited use of Massage",
+                                        "selected_item_icon": {
+                                            "value": "far fa-check-circle",
+                                            "library": "fa-regular"
+                                        },
+                                        "item_icon_color": "#61CE70",
+                                        "_id": "f3f35ed"
+                                    }
+                                ],
+                                "button_text": "Get this plan",
+                                "footer_additional_info": "10% off for renew",
+                                "show_ribbon": "",
+                                "ribbon_title": "Popular",
+                                "header_bg_color": "#FFFFFF",
+                                "header_padding": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "heading_color": "#FF3C00",
+                                "heading_typography_typography": "custom",
+                                "heading_typography_font_family": "Open Sans",
+                                "heading_typography_font_weight": "700",
+                                "heading_typography_text_transform": "uppercase",
+                                "heading_typography_font_style": "italic",
+                                "sub_heading_color": "#5E6466",
+                                "sub_heading_typography_typography": "custom",
+                                "sub_heading_typography_font_family": "Open Sans",
+                                "sub_heading_typography_text_transform": "uppercase",
+                                "pricing_element_bg_color": "#ECF4FC",
+                                "pricing_element_padding": {
+                                    "unit": "px",
+                                    "top": "42",
+                                    "right": "0",
+                                    "bottom": "28",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "price_color": "#3185FC",
+                                "price_typography_typography": "custom",
+                                "price_typography_font_family": "Open Sans",
+                                "currency_size": {
+                                    "unit": "px",
+                                    "size": 79,
+                                    "sizes": []
+                                },
+                                "currency_vertical_position": "middle",
+                                "period_color": "#585F78",
+                                "period_typography_typography": "custom",
+                                "period_typography_font_family": "Open Sans",
+                                "period_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 12,
+                                    "sizes": []
+                                },
+                                "period_typography_text_transform": "uppercase",
+                                "period_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "features_list_bg_color": "#FFFFFF",
+                                "features_list_padding": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "features_list_color": "#5E6466",
+                                "features_list_typography_typography": "custom",
+                                "features_list_typography_font_family": "Open Sans",
+                                "features_list_alignment": "center",
+                                "divider_color": "#ECEBE7",
+                                "divider_weight": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                },
+                                "divider_gap": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "footer_bg_color": "#FFFFFF",
+                                "footer_padding": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "button_text_color": "#FFFFFF",
+                                "button_typography_typography": "custom",
+                                "button_typography_font_family": "Open Sans",
+                                "button_background_color": "#3185FC",
+                                "button_hover_color": "#2A2D2E",
+                                "button_background_hover_color": "#F9DC5C",
+                                "additional_info_color": "#5E6466",
+                                "additional_info_typography_typography": "custom",
+                                "additional_info_typography_font_family": "Open Sans",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "12",
+                                    "right": "12",
+                                    "bottom": "12",
+                                    "left": "12",
+                                    "isLinked": true
+                                },
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 1,
+                                    "blur": 10,
+                                    "spread": -4,
+                                    "color": "rgba(0, 0, 0, 0.2)"
+                                },
+                                "_border_radius_hover": {
+                                    "unit": "px",
+                                    "top": "12",
+                                    "right": "12",
+                                    "bottom": "12",
+                                    "left": "12",
+                                    "isLinked": true
+                                },
+                                "_box_shadow_hover_box_shadow_type": "yes",
+                                "_box_shadow_hover_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 4,
+                                    "blur": 16,
+                                    "spread": -4,
+                                    "color": "rgba(0, 0, 0, 0.3)"
+                                },
+                                "_border_hover_transition": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "price-table",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}
