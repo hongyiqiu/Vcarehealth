@@ -1,0 +1,10 @@
+Version 1.0
+    - Updated default layouts to introduce usage of The Content cell and Layouts default features
+    - Refactored default layouts to demonstrate appropriate HTML structure without some custom row modes and cell types
+    - Implemented toolset admin notices for help links to user guides on default layouts
+    - Added support for Toolset installer
+    - Implemented forbidden cells in content layouts
+
+Version 1.0-beta1
+
+    - First release of Toolset 2017 Integration Plugin

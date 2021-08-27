@@ -1,0 +1,132 @@
+.error-msg-front {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    background: red;
+    color: white;
+    z-index: 100000;
+}
+
+.ddl-same-height-columns {
+    display: table;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.ddl-same-height-columns [class*="col-"] {
+    display: table-cell;
+    height: 100%;
+    float: none;
+}
+
+/* Default Layouts Styles */
+.layouts-content {
+    margin-top: 30px;
+}
+
+.layouts-content h1 {
+    clear: both;
+}
+
+.layouts-content .thumbnail {
+    border: none !important;
+}
+
+.layouts-content img {
+    margin-bottom: 20px;
+}
+
+.layouts-content img.thumb {
+    float: left;
+    margin-right: 20px;
+}
+
+blockquote.layouts-instructions {
+    background-color: #eee;
+    margin-top: 0;
+    padding: 10px;
+    font-size: 0.75rem;
+    border-left-color: orangered;
+}
+
+body.colors-dark blockquote.layouts-instructions {
+    background-color: #333;
+    color: inherit;
+}
+
+.layouts-instructions {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.layouts-instructions a {
+    text-decoration: underline;
+}
+
+.layouts-footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #666;
+    color: white;
+}
+
+.layouts-page-title {
+    background-color: #eee;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.layouts-content .et_pb_widget {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Bootstrap Adjustments */
+html {
+    font-size: inherit;
+}
+
+#mast-head .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#mast-head [class*="col-"]:first-child {
+    padding-left: 0;
+}
+#mast-head [class*="col-"]:last-child {
+    padding-right: 0;
+}
+
+/* 2017 Adjustments */
+.site-content-contain footer {
+    margin-top: inherit;
+}
+
+body.has-sidebar:not(.error404) #primary,
+body.has-sidebar #secondary {
+    width: auto;
+}
+
+.search-form .search-submit {
+    top: inherit!important;
+}
+
+/* Layouts FE Adjustments */
+body.ddl-frontend-editor .navigation-top {
+    position: relative;
+}
+
+body.ddl-frontend-editor .custom-header {
+    margin-bottom: 0 !important;
+}
+
+/* Layouts Standard Cells Adjustments */
+/* YouTube Video Cell */
+.fluid-width-video-wrapper {
+    padding-top: inherit !important;
+}

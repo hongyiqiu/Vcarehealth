@@ -1,0 +1,41 @@
+/**
+ * Add 2017 Icon to Layouts 2017 Cells
+ */
+.ddl-tree-category-items a[data-cell-type^='2017'] {
+    margin-top: 5px;
+}
+.ddl-tree-category-items a[data-cell-type^='2017'] > .ddl-icon:before {
+    content: '';
+    background-image: url('../img/cell-icon.png');
+    background-size: contain;
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 0;
+    top: -5px;
+}
+
+/**
+ * Layouts Row Type List
+ */
+.presets-list.row-types li {
+    height: 140px;
+    box-sizing: border-box;
+    width:33%;
+}
+
+/* Hide Layouts Buttons on Visual Editor */
+.js-visual-editor-editor-container .genesis-post-content,
+.js-visual-editor-editor-container .genesis-post-content-editable {
+    display: none !important;
+}
+
+/**
+ * Custom help link on edit layout screen for special purposes.
+ */
+.custom_help_link {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+}
