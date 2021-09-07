@@ -1,0 +1,28 @@
+<div id="mh-rpg-dice-container">
+	<p>Number of dice<br>
+		<input type="number" id="mh-rpg-number-of-dice" value="1" min="1" step="1">
+	</p>
+	
+	<p>Type of die:<br>
+		<select id="mh-rpg-die-type">
+			<option value="4" selected>4</option>
+			<option value="6">6</option>
+			<option value="8">8</option>
+			<option value="10">10</option>
+			<option value="12">12</option>
+			<option value="20">20</option>
+			<option value="100">100</option>
+		</select>
+	</p>
+
+	<p>Modifier<br>
+		<input type="number" id="mh-rpg-modifier" value="0">
+	</p>
+
+	<label for="mh-rpg-display-all-cb">Display all rolls? 
+	<input type="checkbox" id="mh-rpg-display-all-cb"></label><br>
+	
+	<button type="button" id="mh-rpg-roll-button">Roll</button>
+	<p>Result: <span id="mh-rpg-dice-roll"></span> 
+	<span id="mh-rpg-all-rolls"></span></p>
+</div>

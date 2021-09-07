@@ -3,7 +3,7 @@ Contributors: publishpress, kevinB, stevejburge, andergmartins, olatechpro
 Tags: category, tag, taxonomy, related posts, tag cloud, terms, tagging, navigation, tag manager, tags manager, term manager, terms manager
 Requires at least: 3.3
 Tested up to: 5.8
-Stable tag: 3.2.0
+Stable tag: 3.2.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,54 +14,72 @@ TaxoPress enables you to manage Tags, Categories and all your WordPress taxonomy
 
 TaxoPress allows you to create and manage Tags, Categories and all your WordPress taxonomy terms. With the TaxoPress plugin, you can build new taxonomies, and add them to any post type. 
 
-In TaxoPress, you can manage taxonomies, and also terms. There are tools for you to add, rename, remove, delete and even merge terms. TaxoPress also enables to use your terms for advanced features such as Related Posts and Tag Clouds.
+In TaxoPress, you can manage taxonomies, and also terms. There are tools for you to add, rename, remove, delete and even merge terms. 
+
+With TaxoPress, you can also use your terms for advanced features, such as **Related Posts**, **Auto Links**, and **Tag Clouds**.
+
+TaxoPress Free contains everything you need to manage your taxonomies, and the [TaxoPress Pro](https://taxopress.com/pro) plugin unlocks even more tools and functionality.
 
 = Key Features in TaxoPress =
 
-1. **Manage taxomomies**: You can create new taxonomies and edit all the settings for each taxonomy.
-2. **Related Posts**: Shows lists of posts with similar tags and categories
-3. **Tag Clouds**: Create dynamic tag clouds with many configuration options.
-4. **Manage terms**: Quickly add, rename, remove, delete and even merge terms.
-5. **Automatically create terms from posts**: TaxoPress can analyze your posts and automatically create relevant Tags and Categories.
-6. **Automatically suggest terms from posts**: TaxoPress can use the Dandelion API and OpenCalais API to analyze your WordPress content and suggest Tags that you can add to your post.
-7. **Automatically link words to terms**: If you have a term called “WordPress”, the Auto Links feature will find any instances of “WordPress” in your content and add link to the archive page for that tag.
+1. **Manage taxonomies**: You can create new taxonomies and edit all the settings for each taxonomy.
+2. **Related Posts**: This feature shows a list of posts with similar tags and categories.
+3. **Tag Clouds and Terms Displays**: You can create dynamic displays of all the terms in one taxonomy.
+4. **Terms for Current Post**: This feature allows you show all the terms assigned to the current post. 
+5. **Manage terms**: Quickly add, rename, remove, delete and even merge terms.
+6. **Automatically create terms from posts**: TaxoPress can analyze your posts and automatically create relevant Tags and Categories.
+7. **Automatically suggest terms from posts**: TaxoPress can use the Dandelion API and OpenCalais API to analyze your WordPress content and suggest Tags that you can add to your post.
+8. **Automatically link words to terms**: If you have a term called “WordPress”, the Auto Links feature will find any instances of “WordPress” in your content and add link to the archive page for that tag.
 
 = Feature #1. Create and Manage Taxonomies =
 
-TaxoPress can all the taxonomies created by WordPress and your plugins and themes. You can change the settings for each taxonomy. For example, you can change the visual labels, and control whether the taxonomy is organized in parent-child relationships. You can also assign your taxonomies to different post types.
+TaxoPress can manage all the taxonomies created by WordPress, plus all the taxonomies for your plugins and themes. You have the ability to change the settings for each taxonomy. For example, you can change the visual labels, and control whether the taxonomy is organized in parent-child relationships. You can also assign your taxonomies to different post types.
 
 [Click here to read about managing taxonomies](https://taxopress.com/docs/introduction-taxonomies-screen/).
 
-= Feature #2. How to Show Related Posts =
+= Feature #2. Show Related Posts =
 
 TaxoPress can display posts that are related to the current post. This feature works by checking for shared taxonomy terms. If your post has the terms “Vegetables” and “Food”, then this feature will likely display other posts that also have the terms “Vegetables” and “Food”. The more terms that are shared, the more likely a post is to show.
 
+TaxoPress Free users can create 1 Related Posts display, and [TaxoPress Pro](https://taxopress.com/pro) users can create unlimited Related Posts displays. 
+
 [Click here to read about Related Posts](https://taxopress.com/docs/introduction-to-related-posts/).
 
-= Feature #3. How to Add Tag Clouds =
+= Feature #3. Add Tag Clouds / Terms Displays =
 
-TaxoPress allows you to show a cloud of the Tags used on your site. The most popular tags are shown in a large font. The Tag Cloud can be show in one of three ways:
+TaxoPress allows you to display all the terms in one taxonomy. The most popular terms are shown in a large font. You can show the Tag Cloud with a shortcode, or you can also show it with the Tag Cloud / Terms Display.
 
-* With a shortcode.
-* With the "Tag Cloud" widget.
-* With PHP code in your template files.
+TaxoPress Free users can create 1 terms display, and [TaxoPress Pro](https://taxopress.com/pro) users can create unlimited displays. 
 
 [Click here to read about Tag Clouds](https://taxopress.com/docs/introduction-to-tag-clouds/).
 
-= Feature #4. How to Manage Terms =
+= Feature #4. Show Terms for the Current Post =
 
-The “Manage Terms” screen in TaxoPress provides you with several useful tools to manage the terms on your site. These tools can be used with any taxonomy. Here
+The “Terms for Current Post” feature in TaxoPress allows you to customize the displays of terms on your content.
+
+This is separate from any default display of terms in your theme. You can choose to display the terms in three different ways:<br />
+* Use the shortcode provided in TaxoPress > Terms for Current Post.
+* Use the "Terms for Current Post" widget.
+* TaxoPress can attempt to automatically add terms to your content.
+
+TaxoPress Free users can create 1 Terms for Current Post display, and [TaxoPress Pro](https://taxopress.com/pro) users can create unlimited displays. 
+
+[Click here to read about Terms for Current Post](https://taxopress.com/docs/introduction-to-tags-for-current-post/).
+
+= Feature #5. Manage Terms =
+
+The “Manage Terms” screen in TaxoPress provides you with several useful tools to manage the terms on your site. These tools can be used with any taxonomy. Here are some of the tasks you can perform on the “Manage Terms” screen:
 
 * **Add terms**: Quickly add terms to your content.
 * **Rename terms**: Change the name of your terms in bulk.
-* **Merge terms**: Combine existing terms together. Very useful for fixing typos in your terms.
+* **Merge terms**: Combine existing terms together. This is very useful for fixing typos in your terms.
 * **Remove terms**: Remove terms from all posts, without deleting those terms.
 * **Delete terms**: Delete terms in bulk.
 * **Delete unused terms**: Delete any terms that are rarely used.
 
 [Click here to read about managing terms](https://taxopress.com/docs/introduction-to-manage-terms/).
 
-= Feature #5. How to Automatically Create Terms =
+= Feature #6. Automatically Create Terms =
 
 This feature allows WordPress to examine your post content and title for specified terms and automatically add those terms as Tags. Here’s an example of how it works:
 
@@ -70,15 +88,17 @@ This feature allows WordPress to examine your post content and title for specifi
 
 [Click here to read about creating terms](https://taxopress.com/docs/introduction-to-auto-terms/).
 
-= Feature #6. How to Automatically Suggest Terms =
+= Feature #7. Automatically Suggest Terms =
 
 The Suggested Tags feature in TaxoPress will analyze your WordPress content and suggest Tags that you can add to your post. The default option is “Local Tags”. These are Tags that have already been created on your site. It is possible to use APIs to automatically suggest Tags for your content. The Dandelion API and OpenCalais API integrations can analyze your Posts and Pages and automatically make suggestions for new Tags.
 
 [Click here to read about suggesting terms](https://taxopress.com/docs/introduction-to-suggested-tags/).
 
-= Feature #7. How to Link Words to Terms =
+= Feature #8. Automatically Link Words to Terms =
 
-The Auto Links feature in TaxoPress will automatically add links to your content. If you have a term called “WordPress”, the Auto Links feature will find any instances of “WordPress” in your content and add a link to the archive page for that tag. So any instances of “WordPress” will link to /tag/wordpress.
+The Auto Links feature in TaxoPress will automatically add links to your content. If you have a term called “WordPress”, the Auto Links feature will find all instances of “WordPress” in your content and add a link to the archive page for that tag. So any instance of “WordPress” will link to /tag/wordpress.
+
+TaxoPress Free users can create 1 Auto Link setup, and [TaxoPress Pro](https://taxopress.com/pro) users can create unlimited Auto Links setups. 
 
 [Click here to read about Auto Links](https://taxopress.com/docs/introduction-to-auto-links/).
 
@@ -93,6 +113,64 @@ TaxoPress can be installed in 3 easy steps:
 3. Inside the WordPress admin, go to the 'TaxoPress' mennu.
 
 == Frequently Asked Questions ==
+
+= How do I add Tags or Categories to WordPress Pages? =
+
+Categories and Tags are the two main ways to organize your WordPress content. Both Categories and Tags are “taxonomies” and they can help you sort your content. However, on a normal WordPress site, both Categories and Tags are only available for Posts. This means that you do not have any options to organize your Pages … unless you use a plugin such as TaxoPress.
+
+Here's how to add Categories to your WordPress Pages.<br />
+
+* Install the TaxoPress plugin.
+* Go to “TaxoPress” and then “Taxonomies” in your WordPress admin area.
+* Click “Edit” under “Categories”.
+* Click the “Post Types” tab.
+* Check the box for “Pages”.
+* You may also way want to check the box “Show content from all post types on archive page” so that your Posts and Pages are grouped together on the Category pages.
+* You will now see that “Categories” are available under “Pages” in your WordPress admin menu. When you are editing a Page, you will see the “Categories” box in the right sidebar.  
+
+= How do I create WordPress taxonomies for internal use? =
+
+With the TaxoPress plugin, you can create taxonomies for internal use only. Your content will still be visible, but it can be organized with hidden taxonomies.<br />
+
+* Install the TaxoPress plugin.
+* Go to “Taxonomies” in the WordPress admin area.
+* Create a new taxonomy.
+
+That’s it! The easy approach is to use TaxoPress to create a new taxonomy. If you never decide to actively display the taxonomy, it will never be shown anywhere. It will only be available in the WordPress admin area. You will be able to add terms to this taxonomy while adding content.
+    
+= How do I add Related Posts? =
+
+The Related Posts feature in TaxoPress allows you to show content that are related to the current posts. This feature works by checking for shared taxonomy terms. So if your post has the terms “Vegetables” and “Food”, then this feature will likely display other posts that also have the terms “Vegetables” and “Food”. The more terms that are shared, the more likely a post is to show in the “Related Posts” feature. You have three ways to display related posts:<br />
+
+* Use the shortcode provided in TaxoPress > Related Posts.
+* Use the "Related Posts" widget.
+* Use the automatic display. [Click here to how to use the Related Posts automatic display](https://taxopress.com/docs/where-to-display-related-posts/)
+
+The Related Posts feature in TaxoPress shows posts in a list format. You can modify the information and the format. This Related Posts format is controlled by a setting in TaxoPress > Related Posts:
+
+`<a href="%post_permalink%" title="%post_title% (%post_date%)">%post_title%</a>`
+
+Here are the Related Posts items you can see inside that code:<br />
+
+* %post_permalink% The URL of the post
+* %post_title% The title of the post
+* %post_date% The date of the post (this shows inside a tooltip)
+
+Here are other Related Posts items you can choose to include:
+<br />
+* %post_tagcount% The number of tags used by both posts
+* %post_comment% The number of comments on the post
+* %post_id% The ID of the post
+* %post_relatedtags% A list of tags used by both the current post and the related post
+* %post_excerpt% The post excerpt
+
+Inside the "Taxonomies" screen, you can click the "Admin Area" tab and choose where your private taxonomy appears:<br />
+
+* Show user interface: Should be the visible screen to manage these terms?
+* Show in admin menus: Should there be a link to this taxonomy in the WordPress admin menu?
+* Show in frontend menus: Should this taxonomy be available for the “Menus” screen.
+* Show admin menu: Should this taxonomy appear on screens such as “Posts” and “Pages”?
+* Show in “Quick Edit” and “Bulk Edit”: Should this taxonomy be available in editing tools on screens such as “Posts” and “Pages”?
 
 = TaxoPress is compatible with which WordPress versions? =
 
@@ -114,6 +192,22 @@ TaxoPress can be installed in 3 easy steps:
 6. If you have a term called “WordPress”, the Auto Links feature will find any instances of “WordPress” in your content and add a link to the archive page for that tag.
 
 == Changelog ==
+
+v3.2.1- 2021-08-23
+* Fixed: Notice: Undefined property: WP_Post_Type::$taxonomy on plugin activation #756
+* Fixed: Couldn't save the related posts 'Title header' with 'None' #697
+* Fixed: Auto link showing in WordPress admin #772
+* Fixed: Remove unused option in TaxoPress screen edit pages. #709
+* Fixed: Added exclusion for <style> elements in auto link #774
+* Fixed: Imporove taxonomy page on small screen sizes #749
+* Fixed: Add limit to all taxopress number input. #727
+* Fixed: Limit taxonomy screen plural label input to 100 characters. #745
+* Fixed: Remove slug edit tab for external taxonomies #755
+* Fixed: Issue with 'e' character being typed in editor #770
+* Fixed: Issue with '&' in auto link #770
+* Fixed: Prevent usage of integers(number) only as taxonomy slug #744
+* Fixed: Add an option to hide the display if result is empty in "Related Posts", "Terms Display" and "Terms for Current Post" #662
+* Fixed: Many other screen improvement to taxopress pages
 
 v3.2.0- 2021-08-09
 * Added: Autolink screen with improved features such as:

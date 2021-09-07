@@ -3,29 +3,6 @@
 include_once LEAFEXT_PLUGIN_DIR . '/php/elevation/elevation.php';
 include_once LEAFEXT_PLUGIN_DIR . '/php/elevation/multielevation.php';
 
-function leafext_elevation_case ($array) {
-	$params=array_keys(leafext_elevation_settings());
-	foreach ($params as $param) {
-		if (strtolower($param) != $param) {
-			if (isset($array[strtolower($param)])) {
-				$array[$param] = $array[strtolower($param)];
-				unset($array[strtolower($param)]);
-			}
-		}
-	}
-	return $array;
-}
-
-function leafext_array_find($needle, $haystack) {
-	foreach ($haystack as $item) {
-		//var_dump($item[0]);
-		if ($item[0] == $needle) {
-			return $item;
-			break;
-		}
-	}
-}
-
 //Parameter and Values
 function leafext_elevation_params() {
 	$params = array(
@@ -127,7 +104,7 @@ function leafext_elevation_params() {
 		
 		// https://github.com/Raruto/leaflet-elevation/issues/86#issuecomment-735274347
 		// marker: "elevation-line" || "position-marker" || false
-		array('Marker', __('position/height indicator marker drawn onto the map',"extensions-leaflet-map"), 'elevation-line', array("elevation-line", "position-marker",false)),
+		array('marker', __('position/height indicator marker drawn onto the map',"extensions-leaflet-map"), 'elevation-line', array("elevation-line", "position-marker",false)),
 
 	);
 	return $params;

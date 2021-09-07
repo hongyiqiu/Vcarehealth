@@ -1,0 +1,8 @@
+2021-09-04T18:57:26+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::isGroup() in /bitnami/wordpress/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ViewIframe.php:40
+Stack trace:
+#0 /bitnami/wordpress/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ControllerPreRenderSlider.php(29): Nextend\SmartSlider3\Application\Frontend\Slider\ViewIframe->display()
+#1 [internal function]: Nextend\SmartSlider3\Application\Frontend\Slider\ControllerPreRenderSlider->actionIframe()
+#2 /bitnami/wordpress/wp-content/plugins/smart-slider-3/Nextend/Framework/Controller/AbstractController.php(93): call_user_func_array()
+#3 /bitnami/wordpress/wp-content/plugins/smart-slider-3/Nextend/Framework/Application/AbstractApplicationType.php(88): Nextend\Framework\Controller\AbstractController->doAction()
+#4 /bitnami/wordpress/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Platform/WordPress/WordPressFrontend.php(31): Nextend\Framework\Application\AbstractApplicationType->process( in /bitnami/wordpress/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ViewIframe.php on line 40
+
